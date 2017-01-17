@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/admin/Thumbs.db" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/ldaction/admin/ip.function.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldconfig.admin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldconfig.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/kaij2014/kj-data/kj-calc-time.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldaction/admin/ip.function.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldaction/default/Report.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldaction/default/WebBase.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldaction/default/kj.funcs.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldconfig.admin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldconfig.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldinc/default/blyl/2fc.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/ldinc/default/blyl/5fc.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/lib/core/Object.class" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/skin/js/jquery.datetimepicker.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/skin/js/jquery.simplemodal.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/yeb/callback.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/yeb/merchantProperties.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/yeb/pay.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/yeb/pays.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/yeb/query788.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/ldssc/yeb/yeepayCommon.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/lib/core/Object.class" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/yeb/callback.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/yeb/merchantProperties.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/yeb/pay.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/yeb/pays.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/yeb/query788.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/yeb/yeepayCommon.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/2index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/ldaction/default/WebBase.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/ldconfig.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/lib/core/Object.class" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/自动开奖/kj-data/kj-calc-time.js" charset="UTF-8" />
+  </component>
+</project>
+

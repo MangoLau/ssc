@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><?=$this->iff($args[0], $args[0] . '－'). $this->settings['webName']?></title>
+<link rel="stylesheet" href="/cl/standard.css?v=wj4.3">
+<link rel="stylesheet" href="/cl/wj43.css?v=wj4.3">
+</head>
+<body>
+     <div class="clear" id="body-placeholder">
+          <div id="mainBody">
+<div id="page-header">
+  <div id="header">
+	   <div class="header-logo">
+	   <!--div class="service-tel">在线电话客服：<span class="flag-img-se"></span>0063-90957 88888</div-->
+	   <div class="flashlogo" style="margin-top:38px;"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="280" height="68">
+  <param name="movie" value="/logo.swf" />
+  <param name="quality" value="high" />
+  <param name="wmode" value="transparent" />
+  <embed src="/logo.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="270" height="68" wmode="transparent"></embed>
+</object></div>
+	   </div>
+       <div class="png_fix" id="top-wrap">
+       <div class="myair"><a href="/help/down.html" target="_blank" class="air1"></a></div>
+    <div class="navbg">
+	<div class="inav">
+		<ul id="nav" class="nav">
+			<li class="nLi nlibg1 on"><a href="/index.php">平台首页</a></li>
+			<li class="nLi nlibg2"><a href="#">时时彩</a>
+					<ul class="sub" style="display: none;">
+						<li><a href="/index.php/index/game/1/2"><img src="/skin/images/n19.png" alt="" />重庆时时彩</a></li>
+						<li><a href="/index.php/index/game/3/2"><img src="/skin/images/n19.png" alt="" />江西时时彩</a></li>
+						<li><a href="/index.php/index/game/12/2"><img src="/skin/images/n19.png" alt="" />新疆时时彩</a></li>
+						<li><a href="/index.php/index/game/14/2"><img src="/skin/images/n18.png" alt="" />香港五分彩</a></li>
+						<li><a href="/index.php/index/game/31/2"><img src="/skin/images/n31.png" alt="" />香港一分彩</a></li>
+					</ul>
+            </li>
+            <li class="nLi nlibg3"><a href="#">乐透型</a>
+					<ul class="sub" style="display: none;">
+						<li><a href="/index.php/index/game/6/10"><img src="/skin/images/n14.png" alt="" />广东11选5</a></li>
+						<li><a href="/index.php/index/game/15/10"><img src="/skin/images/n15.png" alt="" />重庆11选5</a></li>
+						<li><a href="/index.php/index/game/16/10"><img src="/skin/images/n16.png" alt="" />江西多乐彩</a></li>
+						<li><a href="/index.php/index/game/20/26"><img src="/skin/images/n17.png" alt="" />北京PK10</a></li>
+					</ul>
+			</li>
+            <li class="nLi nlibg4"><a href="#">数字型</a>
+					<ul class="sub" style="display: none;">
+						<li><a href="/index.php/index/game/25/39"><img src="/skin/images/n33.png" alt="" />江苏快3</a></li>
+						<li><a href="/index.php/index/game/9/12"><img src="/skin/images/n12.png" alt="" />福彩3D</a></li>
+						<li><a href="/index.php/index/game/10/12"><img src="/skin/images/n13.png" alt="" />排列3P</a></li>
+					</ul>
+		  	</li>
+			<li class="nLi nlibg5"><a href="#">会员中心</a>
+					<ul class="sub" style="display: none;">
+						<li><a href="/index.php/safe/info"><img src="/skin/images/n11.png" alt="" />个人资料</a></li>
+						<li><a href="/index.php/safe/passwd"><img src="/skin/images/n10.png" alt="" />密码管理</a></li>
+						<li><a href="/index.php/record/search"><img src="/skin/images/n6.png" alt="" />游戏记录</a></li>
+						<li><a href="/index.php/report/count"><img src="/skin/images/n5.png" alt="" />盈亏报表</a></li>
+						<li><a href="/index.php/report/coin"><img src="/skin/images/n3.png" alt="" />账变记录</a></li>
+						<li><a href="/index.php/cash/rechargeLog"><img src="/skin/images/n9.png" alt="" />充值记录</a></li>
+						<li><a href="/index.php/cash/toCashLog"><img src="/skin/images/n2.png" alt="" />提现记录</a></li>
+						<li><a href="/index.php/notice/info"><img src="/skin/images/n8.png" alt="" />系统公告</a></li>
+                        <li><a href="/help.htm" target="_blank"><img src="/skin/images/n2.png" alt="" />玩法说明</a></li>
+                    </ul>
+            </li>
+            			<li class="nLi nlibg6"><a href="#">代理中心</a>
+					<ul class="sub" style="display: none;">
+						<li><a href="/index.php/team/memberList"><img src="/skin/images/n7.png" alt="" />会员管理</a></li>
+						<li><a href="/index.php/team/gameRecord"><img src="/skin/images/n6.png" alt="" />游戏记录</a></li>
+						<li><a href="/index.php/team/report"><img src="/skin/images/n5.png" alt="" />盈亏报表</a></li>
+						<li><a href="/index.php/team/coinall"><img src="/skin/images/n4.png" alt="" />团队统计</a></li>
+						<li><a href="/index.php/team/coin"><img src="/skin/images/n3.png" alt="" />账变记录</a></li>
+						<li><a href="/index.php/team/cashRecord"><img src="/skin/images/n2.png" alt="" />提现记录</a></li>
+						<li><a href="/index.php/team/linkList"><img src="/skin/images/n1.png" alt="" />推广链接</a></li>
+                    </ul>
+            </li>
+            			<li class="nLi nlibg7"><a href="/index.php/notice/info">系统公告</a></li>
+		</ul>
+    </div>
+</div>
+       </div>
+  </div>
+  </div>               <div id="page-container">
+     <div id="middle-wrap">
+          <div id="middle-left">
+               <div class="png_fix" id="login-wrap-first">
+                    <ul class="userTxt">
+                    	<li>欢 迎 您：<span class="username"><?=$this->user['username']?></span></li>
+                        <li>您的积分：<?=$this->user['score']?>&nbsp;[<a href="/index.php/score/goods"  style="color:#FFF;">积分兑换</a>]</li>
+                        <li>可用资金：<a href="#" title="刷新余额" onclick="reloadMemberInfo()"><?=number_format($this->user['coin'],2)?></a></li>
+						<?php $date=strtotime('00:00:00');?> 
+                        <li>今日消费：<?=number_format($this->getValue("select sum(beiShu * mode * actionNum) from {$this->prename}bets where actionTime > ? and uid={$this->user['uid']} and isDelete=0", $date),2)?></li>
+                        <li>今日中奖：<?=number_format($this->getValue("select sum(bonus) from {$this->prename}bets where kjTime > ? and uid={$this->user['uid']}", $date),2)?></li>
+                        <li><a href="/index.php/cash/recharge" title="充值"><img src="/skin/images/chongzhi.png" alt=""></a><a href="/index.php/cash/toCash" title="提款"><img src="/skin/images/tikuan.png" alt=""></a><a href="/index.php/user/logout" title="退出"><img src="/skin/images/tuichu.png" alt=""></a></li>
+                  </ul>
+				</div>  
+	            <div class="png_fix" id="news-bg">
+		            <div id="news-marquee">
+					     <marquee style="cursor: pointer;" onClick="HotNewsHistory();" onMouseOut="this.start();" onMouseOver="this.stop();" direction="up" scrolldelay="5" scrollamount="2" id="msgNews"><?=$this->settings['webGG']?></marquee>
+				    </div>
+				</div>
+          </div>
+          	      		  <div style="width:740px; height:445px;" id="ad-flash">
+                          <div class="slidercontainer" id="idTransformView">
+                    <ul class="slider" id="idSlider">
+                    <li><a href="#" title=""><img width="740" src="/cl/ads/01.png" alt="" height="445"  /></a></li>
+                    <li><a href="#" title=""><img width="740" src="/cl/ads/02.png" alt="" height="445"  /></a></li>
+                    <li><a href="#" title=""><img width="740" src="/cl/ads/03.png" alt="" height="445"  /></a></li>
+                    <li><a href="#" title=""><img width="740" src="/cl/ads/04.png" alt="" height="445"  /></a></li>
+                    </ul>
+                    <ul class="num" id="idNum"><li class="on">1</li><li>2</li><li>3</li><li>4</li></ul>
+                </div>
+
+		  </div>
+     </div>
+     <div id="middle-game-wrap">
+     	  <div class="clearfix" id="middle-game">
+		       <div id="firstGame-wrap">
+               		<ul>
+                    	<li class="odd"><a href="/index.php/index/game/1/2"><img src="/cl/images/cqssc.jpg"></a></li>
+                        <li><a href="/index.php/index/game/3/2"><img src="/cl/images/jxssc.jpg"></a></li>
+                        <li><a href="/index.php/index/game/12/2"><img src="/cl/images/xjssc.jpg"></a></li>
+                        <li><a href="/index.php/index/game/14/59"><img src="/cl/images/cqkl10.jpg"></a></li>
+                        <li class="odd"><a href="/index.php/index/game/6/10"><img src="/cl/images/gd11x5.jpg"></a></li>
+                        <li><a href="/index.php/index/game/15/10"><img src="/cl/images/cq11x5.jpg"></a></li>
+                        <li><a href="/index.php/index/game/16/10"><img src="/cl/images/jx11x5.jpg"></a></li>
+                        <li><a href="/index.php/index/game/20/26"><img src="/cl/images/sd11x5.jpg"></a></li>
+                        <li class="odd"><a href="/index.php/index/game/10/12"><img src="/cl/images/jsk3.jpg"></a></li>
+                        <li><a href="/index.php/index/game/9/12"><img src="/cl/images/jlk3.jpg"></a></li>
+						<li><a href="/index.php/index/game/25/39"><img src="/cl/images/jsk32.jpg"></a></li>
+						<li><a href="/index.php/index/game/31/2"><img src="/cl/images/xg2fc.jpg"></a></li>
+                        
+                    </ul>
+                    <div class="clear"></div>
+               </div>
+		       		       
+	           	<div class="png_fix" id="firstBTN-wrap">
+	                <div class="hover_fade firstBTN-div" id="firstBTN-download"><a href="/help/down.html" target="_blank"></a></div>
+	                <div class="hover_fade firstBTN-div" id="firstBTN-new"><a target="_blank" href="http://www.lidu118.com/"></a></div>
+	                <div class="hover_fade firstBTN-div" id="firstBTN-service"><a target="_blank"{id: 'testID3',lock: true,title: '',width:840, height:524}) href="http://w30.pop800.com/web800/c.do?n=120535&l=cn&type=1&at=0",></a></div>
+	           </div>
+	      </div>
+     </div>
+</div>          </div>
+	 </div>
+     <div class="png_fix" id="bg-foot">
+          <div class="png_fix" id="page-footer">
+	
+	<div id="footer">
+			  <div id="copy_info">
+			       Copyright &copy; 丽都娱乐 Reserved<br>
+			  </div>
+			  <div id="web_info">
+			       （浏览本网主页，强烈建议将电脑显示屏的分辨率调为1440*900,使用IE8.0浏览器） 
+			  </div>
+		 </div>
+	</div>
+     </div>
+<script type="text/javascript" src="/cl/jquery-1.7.2.min.js?v=4.3"></script>
+<script type="text/javascript" src="/cl/slide-1.0.1.js"></script>
+<script type="text/javascript" src="/skin/js/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+var ary = location.href.split("&");
+jQuery("#nav").slide({ type:"menu", titCell:".nLi", targetCell:".sub",effect:ary[1], delayTime:ary[2] , triggerTime:ary[3], defaultPlay:ary[4],returnDefault:ary[5],easing:ary[6] });
+			
+$(function(){
+
+    $('.hover_fade > a, .hover_fade > span').hover(
+        function(){
+            $(this).stop().animate({'opacity': 0}, 350);
+        }, function(){
+            $(this).stop().animate({'opacity': 1}, 350);
+        }
+    );
+})
+
+//在线客服
+function wjkf168(){
+		var newWin=window.open("","","height=600, width=800, top=0, left=0,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=n o, status=no");
+	if(!newWin||!newWin.open||newWin.closed){newWin=window.open('about:blank');}else{return false;}
+		return false;
+}
+
+window.onerror=function(){return true;}
+</script>
+<!-- Live800在线客服图标:[浮动图标] 开始-->
+<script language="javascript" src="<?=$this->settings['kefuGG']?>"></script>
+<!-- 在线客服图标:结束-->
+</body>
+</html>
