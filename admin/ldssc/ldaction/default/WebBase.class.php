@@ -16,7 +16,7 @@ class WebBase extends Object{
 
 	public $types;			// 彩票种类信息数组
 	public $playeds;		// 玩法信息数组
-	private $expire=3600;	// 读取玩法、彩票缓存
+	protected $expire=3600;	// 读取玩法、彩票缓存
 	
 	public $urlPasswordKey='K#6r%Z*=$Rk9#Rjv.(Q!].tbrNfR.*345';//推广链接加密
 

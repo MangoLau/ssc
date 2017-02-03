@@ -1,0 +1,99 @@
+.commentNow{
+	height:auto;
+}
+.commentNow1{
+	height:auto;
+}
+.commentNow1 li{
+	display:block;
+	line-height:23px;
+	font-size:12px;
+	padding:5px 0px;
+}
+.commentNow1 li .personName{
+	color:#99cc66;
+	font-size:14px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.commentNow1 li .lhsrOne{
+	width:41px;
+	height:41px;
+	float:left;
+	display:inline-block;
+	overflow:hidden;
+	text-align:center;
+}
+.commentNow1 li .lhsrOne img{
+	width:39px;
+	height:39px;
+	border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+.commentNow1 li .lhsr{
+	float:left;
+	display:inline-block;
+	width:700px;
+}
+.aCardright2f{
+	padding-left:10px;
+}
+.aCardright2 .commentNow1 li .commentNow1b{
+	text-indent:0em;
+	padding-left:4px;
+}
+.aCardright2 .commentNow1 li .commentNow1b span{
+	color:#999999;
+}
+.aCardright2 .commentNow1 li .commentNow1a{
+	padding-left:51px;
+	height:auto;
+	text-indent:0em;
+}
+.commentNow1 li  .aOne{
+	display: inline-block;
+    padding-left: 19px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-image: url(../img/card_6.png);
+    margin-left: 11px;
+    float: left;
+}
+.commentNow1 li .commentNow1b span{
+	float:left;
+    padding-left: 8px;
+}
+.commentNow1c{
+	height:auto;
+	padding:5px 51px;
+}
+.commentNow1c .content{
+	width:470px;
+	
+}
+.commentNow1a{
+	clear:both;
+	display:block;
+}
+.commentNow1a li{
+	padding-left:40px;
+}
+.contentDetailsp{
+	padding:10px;
+}
+.newCard2a2f1aaa{
+	padding-top:0px;
+	border:none;
+}
+.aCardright2c .wyjtReturn{
+	display: inline-block;
+    padding-left: 16px;
+    background-image: url(../img/lb.png);
+    background-repeat: no-repeat;
+    font-size: 13px;
+    color: #000000;
+    height: 23px;
+    background-position-y: 7px;
+    background-size: 13px;
+}

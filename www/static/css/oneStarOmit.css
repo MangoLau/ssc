@@ -1,0 +1,403 @@
+.starOmit{
+	height: auto;
+	border: 1px solid #cfcfcf;
+}
+.oneStarOmit2,.starOmitpp{
+	height:40px;
+	line-height: 34px;
+	padding-left: 34px;
+	float: left;
+}
+.starOmitpp{
+	width: 100%;
+	border-bottom: 1px solid #cfcfcf;
+}
+.oneStarOmit2 .haloSpecial .active{
+	color:#d21e1e;
+}
+.oneStarOmit2 ul li{
+	background-image: url(../img/star_shu.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.oneStarOmit2 ul li a{
+	color: #333;
+    display: inline-block;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 4px;
+    line-height: 30px;
+}
+.oneStarOmit2 ul li .active{
+	background-color: #e9608c;
+	color: #fff;
+}
+.oneStarOmit3{
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	background-color: #FFFFFF;
+}
+.oneStarOmit3a{
+	width: 545px;
+	padding: 12px;
+	padding-right: 0px;
+}
+.oneStarOmit3a1{
+	height: 35px;
+    line-height: 35px;
+    clear: both;
+}
+.oneStarOmit3a2{
+	height: 23px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 23px;
+    display: block;
+    clear: both;
+}
+.oneStarOmit3a2 .new_wanWei{
+	display: inline-block;
+    float: left;
+    margin-bottom: 0px;
+}
+.oneStarOmit3b{
+	width: 189px;
+	padding-top: 14px;
+}
+.oneStarOmit3a1a{
+	width: 70px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    float: left;
+    color: #000;
+    background-image: url(../img/zxbg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-right: 10px;
+    margin: 6px 10px 6px 0;
+}
+.oneStarOmit3a1b{
+	display: inline-block;
+	width: 59px;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+}
+.oneStarOmit3a1 ul{
+	margin: 3px 0;
+}
+.oneStarOmit3a1 .ul-img li{
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #eff6fa;
+    border: 1px solid #d7e5ec;
+    border-radius: 20px;
+    cursor: default;
+    position: relative;
+    z-index: 100;
+}
+.oneStarOmit3a1 .ul-img .active{
+	border-radius: 50%;
+    background-image: url(../img/li_ok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+.oneStarOmit3a2 .ul-no-img li{
+	width: 22px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    cursor: default;
+    margin-left: 17px;
+    font-size: 14px;
+}
+.oneStarOmit3a3{
+	height: 23px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 23px;
+    display: block;
+    clear: both;
+}
+.oneStarOmit3b ul li{
+	height: 29px;
+}
+.oneStarOmit3b ul{
+	margin-top: 38px;
+}
+.oneStarOmit3b ul li span{
+	display: inline-block;
+	padding: 0 10px;
+	color: #e9608c;
+	border: 1px solid #cfcfcf;
+	border-radius: 20px;
+}
+
+/*二星遗漏的css部分*/
+.oneStarOmit2 .list-inline{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.oneStarOmit2 .select{
+	display: inline-block;
+	width: 90px;
+	height: 26px;
+}
+.oneStarOmit2 .select select{
+	color: #0d70bc;
+}
+.two-star-omit ul li:last-child{
+	background: none;
+}
+.twoStarOmit1{
+	height: auto;
+	background-color: #FFFFFF;
+	padding:10px 17px;
+	float: left;
+}
+.twoStarOmit1a{
+	height: 38px;
+	padding-bottom: 8px;
+}
+.twoStarOmit1a .span-one{
+	width: 54px;
+	height: 26px;
+	line-height: 26px;
+	display: inline-block;
+	float: left;
+	border: 1px solid #e5e5e5;
+	background-color: #eeeeee;
+	border-radius: 5px;
+	font-size: 13px;
+}
+.twoStarOmit1a .span-two{
+	height: 26px;
+	line-height: 26px;
+	display: inline-block;
+	float: left;
+	font-size: 13px;
+}
+.twoStarOmit1a ul{
+	margin: 0px;
+}
+.twoStarOmit1a ul li{
+	width: 34px;
+	text-align: center;
+	height: 26px;
+	line-height: 26px;
+	margin-left: 8px;
+	color: #333;
+	cursor:default;
+	border: 1px solid #cfcfcf;
+	border-radius: 20px;
+}
+.twoStarOmit1a ul .active{
+	background-color: #e9608c;
+	border: 1px solid #e9608c;
+	color:#ffffff;
+}
+.twoStarOmit1b{
+	height: 145px;
+	border: 1px solid #E5E5E5;
+	margin-bottom: 8px;
+}
+.twoStarOmit1b textarea{
+	width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    background: none;
+    line-height: 20px;
+    font-size: 14px;
+    color: #797977;
+    padding: 0.5em;
+    font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+}
+.twoStarOmit1 .color-green{
+	color: #52c800;
+	font-size: 13px;
+}
+.twoStarOmit1c{
+	height: 40px;
+	margin-bottom: 7px;
+}
+.twoStarOmit1c .btn-count{
+	width: 116px;
+	height: 34px;
+	background:none;
+	background-image: url(../img/two_star_02.png);
+	background-position: center;
+	border: none;
+	outline: none;
+	background-repeat:no-repeat;
+}
+.twoStarOmit1c .tjNow{
+	width: 160px;
+	height: 34px;
+	background:none;
+	background-image: url(../img/ylbb.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	border: none;
+	outline: none;
+}
+.twoStarOmit1d{
+	height: auto;
+}
+.twoStarOmit1d .table{
+	table-layout: fixed;
+	border: 1px solid #f4e2c5;
+}
+.twoStarOmit1d .table tr td{
+	border: 1px solid #dddddd;
+}
+.twoStarOmit1e h5{
+	background-color: #e9608c;
+	color: #fff;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 7px 15px;
+}
+.twoStarOmit1e p{
+	margin-bottom: 5px;
+	color:#333;
+	font-size:14px;
+}
+.twoStarOmit1e{
+	margin-bottom: 40px;
+}
+.twoStarOmit1f{
+	height: auto;
+	padding-top: 7px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #cfcfcf;
+	margin-bottom: 10px;
+}
+.twoStarOmit1f1a{
+	padding-top: 8px;
+	float: right;
+}
+
+.twoStarOmit1f1a .btn{
+	padding: 2px 6px;
+    background-color: #FBFCEA;
+    color: #808080;
+    border-color: #FAE1BD;
+}
+.twoStarOmit1f1{
+	margin-bottom: 5px;
+}
+.twoStarOmit1f1 .list-inline {
+    display: inline-block;
+    margin: 0px;
+    padding-left: 4px;
+    float: left;
+}
+.twoStarOmit1f1 .list-inline li {
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #eff6fa;
+    border: 1px solid #d7e5ec;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    cursor: default;
+}
+.twoStarOmit1f1 .list-inline .active {
+    background-color: #e9608c;
+    background-image: none;
+    border: 1px solid #d74b78;
+    color: #FFFFFF;
+}
+.twoStarOmit1f1a .hoverStyle{
+	background-image: url(../img/halo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #ffffff;
+	color:#ffffff;
+}
+.twoStarOmit1f1a .btn-default.active:hover{
+	background-image: url(../img/halo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #ffffff;
+	color:#ffffff;
+}
+.twoStarOmit1f1a .btn-default.active:focus{
+	background-image: url(../img/halo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #ffffff;
+	color:#ffffff;
+}
+.twoStarOmit1f1a .color_main{
+	color: #D21E1E;
+}
+.twoStarOmit1g{
+	height: 30px;
+	line-height: 30px;
+	color: #6cc52e;
+}
+.twoStarOmit1g1,.twoStarOmit1g2,.twoStarOmit1g3{
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	float: left;
+	display: inline-block;
+	padding: 0 10px;
+	color: #fff;
+	background-color: #e9608c;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.twoStarOmit1g2{
+	width: 76px;
+	float: right;
+	margin-right: 126px;
+}
+.starOmitpp .span1{
+	float:left;
+	padding-right:5px;
+	font-size: 12px;
+}
+.starOmitpp input{
+	float:left;
+	
+}
+.starOmitpp .spanOne{
+	display:inline-block;
+	width:132px;
+	text-align:right;
+}
+.starOmitpp .spanTwo{
+	display:inline-block;
+	color:#e9608c;
+	padding-left:2px;
+}
+.starOmitpp .inputOne{
+	width:150px;
+	height:28px;
+	padding-left:5px;
+	padding:5px;
+	line-height:18px;
+	border:1px solid #aaaaaa;
+	border-radius:4px;
+	margin-top:3px;
+}
+.oneStarOmit2 .starOmitpp .select{
+	margin-top:6px;
+	width:auto;
+	height:28px;
+}
+/*前二和值遗漏*/

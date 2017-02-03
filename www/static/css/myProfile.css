@@ -1,0 +1,1561 @@
+.myProfile{
+	margin-top:10px;
+	padding-bottom: 20px;
+	background-color:#ffffff;
+}
+.myProfile1{
+	width: 220px;
+	height: auto;
+	border: 1px solid #dcdcdc;
+}
+.myProfile11{
+	width: 220px;
+	height: auto;
+	border-bottom: 1px solid #dcdcdc;
+}
+.myProfile11 ul li{
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+	border-top: 1px solid #dcdcdc;
+}
+.myProfile11 ul li a{
+	color:#666666;
+}
+.myProfile11 .first-ul .li-one{
+    background-color: #e9608c;
+    background-image: url(../img/sqq.png);
+    background-position: 130px 13px;
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: default;
+    font-size: 14px;
+    width: 168px;
+    height: 38px;
+    text-align: center;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	margin:6px 0;
+	font-weight: 600;
+}
+.myProfile11 .first-ul li.sq{
+	 background-image: url(../img/zkk.png);
+}
+.myProfile11 .first-ul .bgTwo{
+	
+}
+.myProfile11 .first-ul .bgThree{
+	
+}
+.myProfile11 .second-ul .li-one{
+	background-image: url(../img/user_00.png);
+	background-position:26px 11px;
+	*background-position-x:26px;
+	*background-position-y:11px;
+}
+.myProfile11 .first-ul .li-three{
+	background-position:35px 7px;
+	*background-position-x:35px;
+	*background-position-y:7px;
+}
+.myProfile11 .second-ul .li-four{
+	background-position: 30px 7px;
+	*background-position-x:30px;
+	*background-position-y:7px;
+}
+.myProfile11 ul .active{
+	color:#0fbd0d;
+}
+.myProfile11 ul .active a{
+	color:#e9608c;
+	font-weight:bold;
+}
+.myProfile11 ul .li-one{
+	
+}
+.myProfile2{
+	width: 880px;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #e6e6e6;
+}
+.myPayRecords .modal-footer{
+	border:none
+}
+.myPayRecords .pagination > .active > a{
+	background-color:#52C800;
+	border-color:#52C800;
+	color:#ffffff;
+}
+.myPayRecords .pagination > .active > a:hover{
+	color:#ffffff;
+}
+.myProfile2a{
+	height: 47px;
+	margin-top: -1px;
+}
+.myProfile2a .myfile-ul{
+	display: inline-block;
+	width: 384px;
+	height: 47px;
+	float: left;
+	margin: 0px;
+	padding-left: 60px;
+	background-image: url(../img/user_005.png);
+	background-repeat: no-repeat;
+}
+.myProfile11 .first-ul .svip{
+	background-image: none;
+	font-size: 20px;
+}
+.myProfile2a .myAccount-ul{
+	display: inline-block;
+	width: 384px;
+	height: 47px;
+	float: left;
+	margin: 0px;
+	padding-left: 60px;
+	background-image: url(../img/user_0005.png);
+	background-repeat: no-repeat;
+}
+.myProfile2a .myRecords-ul{
+	display: inline-block;
+	width: 384px;
+	height: 47px;
+	float: left;
+	margin: 0px;
+	padding-left: 60px;
+	background-image: url(../img/user_005.png);
+	background-repeat: no-repeat;
+}
+.myProfile2a .myRecords-ul1{
+	display: inline-block;
+	width: 384px;
+	height: 47px;
+	float: left;
+	margin: 0px;
+	padding-left: 60px;
+	background-image: url(../img/up_01.png);
+	background-repeat: no-repeat;
+}
+.myProfile2a .task-ul{
+	display: inline-block;
+	width: 384px;
+	height: 47px;
+	float: left;
+	margin: 0px;
+	padding-left: 60px;
+	background-image: url(../img/user_000005.png);
+	background-repeat: no-repeat;
+}
+.myProfile2a ul li{
+	width: 100px;
+	line-height: 47px;
+	cursor: pointer;
+}
+.myProfile2a ul .active a{
+	color:#ffffff;
+}
+.myProfile2a ul li a{
+	color:#666666;
+	text-decoration:none;
+}
+.myProfile2a ul li a:hover{
+	color:#666666;
+	text-decoration:none;
+}
+.myProfile2a ul .active a:hover{
+	color:#ffffff;
+}
+.myProfile2a ul .active{
+	color: #FFFFFF;
+}
+.myProfile2bbgbg{
+	height:auto;
+	padding-left: 98px;
+}
+.myProfile2b{
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 16px;
+}
+.myProfile2b1a{
+	width: 137px;
+	margin: 20px auto 5px;
+	height: 135px;
+}
+.myProfile2b1a .user-head{
+	width: 82px;
+	height: 82px;
+	float: left;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-left: 28px;
+}
+.myProfile2b1a .user-head1{
+	background-image: url(../img/user_006.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myProfile2b1a .txt{
+	float: left;
+	width: 120px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border:1px solid #ddd;
+	border-radius:4px;
+	margin-top: 10px;
+	margin-left: 9px;
+}
+.myProfile2b1a .user-head img{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+}
+.myProfile2b1a p{
+	margin: 0px;
+	float: right;
+	line-height: 82px;
+	color: #666666;
+}
+.myProfile2b2{
+	height: auto;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.myProfile2b2 .table{
+	table-layout:fixed;
+	margin-bottom:0px;
+}
+.myProfile2b2 table tr td{
+	text-align: left;
+	height: 40px;
+	border: none;
+	line-height:40px;
+	padding:0px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.myProfile2b2 table tr td .td-one{
+	float:left;
+}
+.myProfile2b2 table tr td a.td-one{
+	display:inline-block;
+	padding-left:4px;
+}
+.user-level{
+	display: inline-block;
+	width: 70px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #e9608c;
+	margin-top:8px;
+	float:left;
+}
+.myProfile2b2 .color_main{
+	color: #FFFFFF;
+}
+.myProfile2b2 a{
+	color: #1e50a2;
+}
+.myProfile2b2 table tr td .btn{
+	padding: 2px 9px;
+	float: left;
+	margin-left:5px;
+	background-color: #e9608c;
+	color: #FFFFFF;
+	margin-top:7px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.myProfile2b2 table tr td .youAreTheSp{
+	float:left;
+	display: inline-block;
+    width: 200px;
+    height: 26px;
+    line-height:26px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor:pointer;
+}
+.myProfile2b2 table tr td .btn:hover{
+	background-color: #00a59e;
+	color: #FFFFFF;
+}
+.myProfile2b2 table tr td .spspsp{
+	float:left;
+	margin:0px;
+}
+.myAccount-one .pay-one,.pay-two,.level-one,.level-two{
+	display: inline-block;
+	width: 150px;
+	height: 41px;
+	border: 1px solid #DCDCDC;
+	vertical-align: middle;
+}
+.myAccount-one table tr td:last-child{
+	text-align: left;
+	padding-left: 0px;
+}
+.myAccount-one table tr .text-right{
+	text-align: right;
+	line-height: 41px;
+}
+.myProfile .padding-max{
+	padding-right: 348px;
+}
+.myAccount-one table tr .pay-one{
+	background-image: url(../img/pay_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myAccount-one table tr .pay-two{
+	background-image: url(../img/pay_2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myAccount-one table tr .level-one{
+	background-image: url(../img/level_01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myAccount-one table tr .level-two{
+	background-image: url(../img/level_02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myAccount-one table tr td.time-one{
+	padding-left: 10px;
+}
+.myAccount-one table tr td.padding-max-01{
+	padding-left: 16px;
+}
+.myAccount-one table tr td.padding-max-01 .spanOne{
+	float: left;
+	line-height: 34px;
+}
+.myAccount-one table tr td.padding-max-01 input{
+	float: left;
+	vertical-align: middle;
+	width: 88px;
+	height: 24px;
+	margin-top:5px;
+	margin-left: 5px;
+	font-size: 13px;
+	padding-left: 5px;
+	line-height: 13px;
+}
+.myAccount-one table tr td.padding-max-01 .textOne{
+	float: left;
+	vertical-align: middle;
+	width: 88px;
+	height: 24px;
+	margin-top:5px;
+	margin-left: 5px;
+	font-size: 13px;
+	padding-left: 5px;
+	line-height: 13px;
+}
+.myAccount-one table tr td.time-one .select2{
+	margin-top:5px;
+}
+.myAccount-one table tr td .checkbox{
+	display: inline-block;
+}
+.myAccount-one table tr td .checkbox input{
+	width: auto;
+}
+.myAccount-one table tr td .checkbox label{
+	padding: 0px;
+}
+.myProfile2b2 table tr td .checkbox{
+	width: 20px;
+	margin-top: 2px;
+}
+.span-time{
+	display: inline-block;
+	width: 27px;
+	height: 34px;
+	background-image: url(../img/span_time.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myProfile2b2 table tr td .color_main{
+	color: #FFFFFF;
+	background-image: url(../img/done.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myAccount-one table tr td.text-center{
+	text-align: center;
+	line-height: 41px;
+}
+.myAccount-one table tr td.text-center .btn{
+	margin: 0px auto;
+	float: none;
+	padding: 5px 50px;
+	border-color: #e54d1f;
+	background-color: #e54d1f;
+}
+.myAccount-one table tr td.text-center .btn:hover{
+	border-color: #e54d1f;
+	background-color: #e54d1f;
+}
+/*充值记录*/
+.myPayRecords{
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 12px;
+}
+.myPayRecords .table{
+	border: none;
+	table-layout:fixed;
+}
+.myPayRecords .table tr .th01{
+	width:96px;
+}
+.myPayRecords .table tr .th02{
+	width: 225px;
+}
+.myPayRecords .table tr th{
+	border: none;
+	border-right: 1px solid #dcdcdc;
+	text-align: center;
+	padding: 0px;
+	color:#3EAE16;
+}
+.myPayRecords .table tr .th-01{
+	width:100px;
+}
+.myPayRecords .table tr .th-02{
+	width:120px;
+}
+.myPayRecords .table tr .th-03{
+	width:140px;
+}
+.myPayRecords .table tr td{
+	text-align: center;
+	padding: 5px 0px;
+	border-left: 1px solid #DCDCDC;
+	font-size:12px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.myPayRecords .table tr td:nth-child(3){
+	text-align: left;
+	padding-left: 20px;
+}
+.myPayRecords .table tr td:first-child{
+	border-left: none;
+}
+.myPayRecords .table tr th:last-child{
+	border: none;
+}
+.myPayRecords .table tr .round{
+	width:60px;
+}
+.myPayRecords .table tr .banknow{
+	width:200px;
+}
+.myPayRecords .table tr .nameTrue{
+	width:100px;
+}
+.myPayRecords .table tr td .pay-one{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-image: url(../img/zfb.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+}
+.myPayRecords .table tr td .pay-two{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-image: url(../img/wx.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myPayRecords .table tr td a{
+	color: #52c800;
+	cursor:pointer;
+}
+.myPayRecords .table tr td .not{
+	color: #D21E1E;
+}
+.myPayRecords .table tr:last-child td{
+	border-bottom: 1px solid #DCDCDC;
+}
+/*积分记录*/
+.myIntegrav{
+	border: 1px solid #DCDCDC;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:10px;
+}
+.myIntegrav .border-none{
+	border:none;
+}
+.myIntegrav .border-none .select2-container{
+	float:left;
+}
+.myIntegra{
+	height: 55px;
+	padding-top: 10px;
+}
+
+.myIntegra .spanOne{
+	float:left;
+	line-height:30px;
+	padding-right:3px;
+	padding-left:3px;
+}
+.myIntegra .min-width{
+	width:150px;
+}
+.myIntegra .width-min{
+	margin-right:3px;
+	width:110px;
+}
+.myIntegra input{
+	width: 99px;
+	height: 30px;
+	padding-left: 5px;
+	font-size: 13px;
+	line-height: 13px;
+	border:1px solid #dcdcdc;
+	float:left;
+}
+.myIntegra .aOne{
+	display:inline-block;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	background-color:#F0BE0A;
+	color:#ffffff;
+	border:1px solid #F0BE0A;
+	text-decoration:none;
+	margin-left:7px;
+	border-radius:4px;
+}
+.myIntegra .aOne:hover{
+	background-color:#F0BE0A;
+	color:#ffffff;
+	text-decoration:none;
+	opacity:.8;
+}
+.myIntegra .bgimg{
+	width:105px;
+	background-image: url(../img/rili_14.png);
+	background-repeat: no-repeat;
+	background-position-x:85px;
+	background-position-y:center;
+}
+.myIntegra .width-max{
+	width: 214px;
+}
+.myPayRecords .table tr td .add{
+	display: inline-block;
+	padding-right: 10px;
+	background-image: url(../img/add_03.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.myPayRecords .table tr td .down{
+	display: inline-block;
+	padding-right: 10px;
+	background-image: url(../img/add_00_06.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.myIntegrafather .table tr td:nth-child(3) {
+    text-align: center;
+    padding-left: 0px;
+}
+/*修改密码弹出框样式*/
+.bs-example-modal-sm-myProfile .modal-content{
+	margin-top: 241px;
+	border-radius: 0px;
+}
+.bs-example-modal-sm-myProfile .modal-header h4{
+	font-size: 14px;
+}
+.bs-example-modal-sm-myProfile .modal-body p{
+	color: #5a5a5a;
+}
+.bs-example-modal-sm-myProfile .modal-body input{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	padding-left: 7px;
+	height: 35px;
+	border-radius: 4px;
+}
+.my-update1{
+	height: auto;
+	padding-left: 88px;
+	padding-right:140px ;
+}
+.my-update1 .my-update2{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 16px;
+}
+.my-update1a{
+	height: auto;
+}
+.my-update1 .my-update1a{
+	border-bottom: none;
+	height: auto;
+	text-align: center;
+	padding-bottom:20px;
+}
+.my-update1a1{
+	text-align: left;
+	padding-left: 40px;
+	padding-left: 134px;
+}
+.my-update1a1 label.error{
+	color:#d21e1e;
+	font-size:13px;
+}
+.my-update1a1 label.error .spsp{
+	color: #d21e1e;
+}
+.my-update1a1 input{
+	width: 389px;
+	height: 46px;
+	border-radius: 4px;
+	border: 1px solid #DCDCDC;
+	padding-left: 10px;
+}
+.my-update1a3{
+	margin-top: 20px;
+}
+.my-update1a3 .btn{
+	background-color: #13b5b1;
+	border-color: #13b5b1;
+	width: 389px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	padding: 0px;
+}
+
+.myPayRecords{
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+}
+.myPayRecords .table{
+	border: none;
+}
+.myPayRecords .table tr th{
+	border: none;
+	border-right: 1px solid #dcdcdc;
+	text-align: center;
+	padding: 3px;
+	color:#3EAE16;
+	font-weight:bold;
+}
+.myPayRecords .table tr td{
+	text-align: center;
+	border-left: 1px solid #DCDCDC;
+	padding:5px 0px;
+	cursor:default;
+}
+.myPayRecords .table tr td:first-child{
+	border-left: none;
+}
+.myPayRecords .table tr th:last-child{
+	border: none;
+}
+.myPayRecords .table tr td .pay-one{
+	display: inline-block;
+	width: 63px;
+	height: 20px;
+	background-image: url(../img/zfb_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+}
+.myPayRecords .table tr td .pay-two{
+	display: inline-block;
+	width: 63px;
+	height: 20px;
+	background-image: url(../img/wx_2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+.myPayRecords .table tr td a{
+	color: #52c800;
+}
+.myPayRecords .pagination{
+	margin:0px;
+}
+.myPayRecords .pagination li a{
+	padding: 3px 12px;
+	font-size:13px;
+	color:#666666;
+}
+.myPayRecords .table tr td .not{
+	color: #D21E1E;
+}
+.myPayRecords .table tr:last-child td{
+	border-bottom: 1px solid #DCDCDC;
+}
+/*积分记录*/
+.myIntegra{
+	height: 55px;
+	padding-top: 10px;
+	border-bottom: 1px solid #EDEDED;
+}
+.myIntegra input{
+	width: 80px;
+	height: 30px;
+	padding-left: 5px;
+	font-size: 13px;
+	line-height: 13px;
+	border-radius:4px;
+}
+.myIntegra .width-max{
+	width: 214px;
+}
+.myPayRecords .table tr td .add{
+	display: inline-block;
+	padding-right: 10px;
+	background-image: url(../img/add_03.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.myPayRecords .table tr td .down{
+	display: inline-block;
+	padding-right: 10px;
+	background-image: url(../img/add_00_06.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.myIntegrafather .table tr td:nth-child(3) {
+    text-align: center;
+    padding-left: 0px;
+}
+/*修改密码弹出框样式*/
+.bs-example-modal-sm-myProfile .modal-header{
+	padding-top:5px;
+	padding-bottom: 5px;
+	background-color: #b01919;
+	color: #FFFFFF;
+}
+.bs-example-modal-sm-myProfile .modal-body .text-right{
+	padding-top: 10px;
+}
+.bs-example-modal-sm-myProfile .modal-body .text-right .btn{
+	background-color:#d21e1e;
+	color: #FFFFFF;
+	padding: 3px 12px;
+	border-color: #d21e1e;
+}
+/*新增的css*/
+.myProfile2a .my-update{
+	display: inline-block;
+    width: 384px;
+    height: 47px;
+    float: left;
+    margin: 0px;
+    padding-left: 60px;
+    background-image: url(../img/up_01.png);
+    background-repeat: no-repeat;
+}
+.my-update1{
+	height: auto;
+	padding-left: 88px;
+	padding-right:140px ;
+}
+.my-update1 .my-update2{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 16px;
+}
+.my-update1a{
+	height: auto;
+}
+.my-update1 .my-update1a{
+	border-bottom: none;
+	height: auto;
+	text-align: center;
+	
+}
+.my-update1a1{
+	text-align: left;
+	padding-left: 40px;
+	padding-left: 134px;
+}
+.my-update1a1 input{
+	width: 389px;
+	height: 46px;
+	border-radius: 4px;
+	border: 1px solid #DCDCDC;
+	padding-left: 10px;
+}
+.my-update1a3{
+	margin-top: 20px;
+}
+.my-update1a3 .btn{
+	background-color: #13b5b1;
+	border-color: #13b5b1;
+	width: 389px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	padding: 0px;
+}
+.my-update1a3 .btn:active{
+	background-color: #13b5b1;
+	border-color: #13b5b1;
+}
+.my-update1a3 .btn:visited{
+	background-color: #13b5b1;
+	border-color: #13b5b1;
+}
+.myPayRecordsChild{
+	line-height:45px;
+	border-bottom:1px dotted #dcdcdc;
+}
+.myPayRecordsChild .spanOne{
+	float:left;
+	padding-left:8px;
+	padding-right:2px;
+}
+.myPayRecordsChild .select2{
+	float:left;
+	margin-top:7px;
+	margin-right:8px;
+	text-align:center;
+}
+.myPayRecords .table tr .th01ww span{
+	display: inline-block;
+	float: left;
+	width: 160px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.myPayRecords .table tr .th01ww button{
+	float: left;
+}
+.myPayRecords .table tr .th03{
+	width: 60px;
+}
+.myPayRecords .table tr .th04{
+	width: 93px;
+}
+.myPayRecords .table tr .th05{
+	width: 95px;
+}
+.myPayRecords .table tr .th06{
+	width: 130px;
+}
+.myPayRecords .table tr .th0111{
+	width: 155px;
+}
+.myPayRecords .table tr .th0112{
+	width: 55px;
+}
+.myPayRecords .table tr .th07{
+	width: 114px;
+}
+.myProfile2 .pOne{
+	padding-left: 40px;
+	padding-top: 10px;
+	margin: 0px;
+	padding-right:20px;
+}
+.myProfile2 .pOne .select2-container{
+	margin-right:6px;
+}
+.myTzjl{
+	padding-top: 10px;
+}
+.myTzjla{
+	height: 33px;
+	padding-left: 5px;
+	
+}
+.myTzjla .select2-container{
+	float: left;
+	margin-right: 4px;
+	font-size:12px;
+}
+.myTzjla .spanOne{
+	display: inline-block;
+	line-height: 28px;
+	float: left;
+	margin-left: 2px;
+	font-size:12px;
+}
+.myTzjla .textOne{
+	height: 28px;
+	border-radius: 4px;
+	border: 1px solid #AAAAAA;
+	width: 88px;
+	float: left;
+	margin-left: 4px;
+	padding-left: 5px;
+	font-size:12px;
+}
+.myTzjla .aOne{
+	display: inline-block;
+	margin-left: 2px;
+	width: 56px;
+	text-align: center;
+	line-height: 25px;
+	height: 26px;
+	background-color: #f39800;
+	color: #FFFFFF;
+	border-radius: 4px;
+	text-decoration: none;
+	float:left;
+	border:1px solid #f39800;
+	padding:0px;
+}
+.myTzjla .textTwo{
+	height: 28px;
+	border-radius: 4px;
+	border: 1px solid #AAAAAA;
+	width: 80px;
+	float: left;
+	margin-left: 2px;
+	padding-left: 5px;
+	font-size:12px;
+}
+.myTzjla .aOne:hover{
+	text-decoration: none;
+}
+.myTzjlb{
+	height: 27px;
+	padding-left: 8px;
+	line-height: 27px;
+	display: inline-block;
+	float: left;
+}
+.myTzjlb span{
+	display: inline-block;
+	padding-right: 5px;
+	font-size: 13px;
+}
+.myTzjlc{
+	height: auto;
+}
+.borderbtn{
+	margin-bottom:5px;
+	border-bottom:1px dotted #dcdcdc;
+}
+.myTzjlc .table{
+	table-layout: fixed;
+}
+.myTzjlc .table tr td a{
+	text-decoration: underline;
+}
+.myTzjlc .table thead tr td{
+	background-color: #3EAE16;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 2px 2px;
+	overflow: auto;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border: none;
+}
+.myTzjlc .table thead tr .td03{
+	width: 55px;
+	font-size: 14px;
+}
+.myTzjlc .table thead tr .td04{
+	width: 102px;
+}
+.myTzjlc .table thead tr .td01{
+	width: 94px;
+}
+.myTzjlc .table thead tr .td06{
+	width: 85px;
+}
+.myTzjlc .table thead tr .td010{
+	width: 110px;
+}
+.myTzjlc .table thead tr .td-time{
+	width: 135px;
+}
+.myTzjlc .table tr td{
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 12px;
+	padding: 0px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.myTzjlc .table tr td .tdSelect{
+	display: inline-block;
+    width: 20px;
+    height: 17px;
+    background-image: url(../img/xiala_00_06.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.myTzjlc .table tr .padding-no{
+	padding: 0px;
+}
+.myTzjlc .table tr .padding-no .divOne{
+	height: auto;
+}
+.myTzjlc .table tr .padding-no .divOne ul{
+	margin: 0px;
+    display: block;
+    text-align: left;
+}
+.myTzjlc .table tr .padding-no .divOne ul li{
+	display: inline-block;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 23px;
+    line-height: 23px;
+    text-align: left;
+    border-radius: 0px;
+    font-size: 13px;
+    background: none;
+    color: #3EAE16;
+    font-weight: bold;
+}
+.myTzjlc .table tr .padding-no .divOne ul .width01{
+	    width: 237px;
+}
+.myTzjlc .table tr .padding-no .divOne ul .width02{
+	width: 217px;
+}
+.myTzjlc .table tr .padding-no .divOne ul li span{
+	color: #666666;
+	font-weight: 100;
+	font-size: 12px;
+}
+.myTzjlc .table tr td .close2{
+	display: inline-block;
+    background-color: #666666;
+    color: #FFFFFF;
+    width: 50px;
+    cursor: pointer;
+}
+.myTzjlc .table tr td{
+	border: 1px solid #C6E4BC;
+}
+.myTzjlc .table tbody tr:nth-child(2n){
+	background-color: #F2FBEF;
+}
+.myTzjlc .table tr td .cd{
+	color:#e4a611;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .cd{
+	color:#e4a611;
+}
+.myTzjlc .table tr td .ypj{
+	color:#0dad89;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .ypj{
+	color:#0dad89;
+}
+.myTzjlc .table tr td .black{
+	color:#060606;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .black{
+	color:#060606;
+}
+.myTzjlc .table tr td .zj{
+	color:#d21e1e;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .zj{
+	color:#d21e1e;
+}
+.myTzjlc .table tr td .zhz{
+	color:#18b214;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .zhz{
+	color:#18b214;
+}
+.myTzjlc .table tr td .wzj{
+	color:#fc0808;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .wzj{
+	color:#fc0808;
+}
+.myTzjlc .table tr td .wkj{
+	color:#7a7a7a;
+}
+.myTzjlc .table tr .padding-no .divOne ul li .wkj{
+	color:#7a7a7a;
+}
+.myTzjl .padding-small{
+	padding-left: 10px;
+	margin: 0px;
+}
+.myProfile222{
+	width: 773px;
+	border-top:none;
+	padding-bottom:40px;
+}
+.myProfile222 .timeFor-count{
+	padding-top:0px;
+}
+.myPayRecords .table tr .th01ww div{
+	margin: 0px auto;
+    width: auto;
+    display: inline-block;
+}
+.myProfile2a33{
+}
+.myProfile2a33 .pagination1 {
+    height: auto;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right:5px;
+}
+.myProfile2a33 .pagination1 .pagination {
+    margin: 0px;
+    margin-top: 10px;
+}
+.myProfile2a33 .pagination1 .pagination > .active > a {
+    background-color: #3DBB2B;
+    border-color: #3DBB2B;
+    color: #FFFFFF;
+}
+.myProfile2a33 .pagination1 .pagination > li > a {
+    padding: 3px 12px;
+    color: #666666;
+    font-size: 13px;
+}
+.myTzjl .padding-small p{
+	margin-bottom:6px;
+}
+.dfdf{
+	height:45px;
+	padding-bottom:5px;
+	border-bottom:1px dotted #dcdcdc;
+}
+.brother{
+	height:auto
+}
+.noRecord{
+	height:462px;
+	background-image: url(../img/cz.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.noJifenRecord{
+	height:462px;
+	background-image: url(../img/jf.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.norwRecord{
+	height:462px;
+	background-image: url(../img/gtgt.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tzjlNorecord{
+	height:462px;
+	background-image: url(../img/tzRco_03.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myProfile2bbgbg1{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+.myProfile2bbgbg1 ul{
+	margin:0px;
+	line-height:40px;
+}
+.myProfile2bbgbg1 ul li{
+	width:50%;
+	float:left;
+	height:40px;
+}
+.myProfile2bbgbg1 ul li .spanOne{
+	float:left;
+}
+.myProfile2bbgbg1 ul li .spanTwo{
+	float:left;
+	display:inline-block;
+	width:70px;
+	height:24px;
+	color: #e9608c;
+	
+}
+.myProfile2bbgbg1 ul li .spanThree{
+	float:left;
+	dispaly:inline-block;
+	width:35px;
+	height:29px;
+	margin-top:5px;
+	
+}
+.myProfile2bbgbg1 ul li .spanThreea{
+	float:left;
+	dispaly:inline-block;
+	padding-left:5px;
+}
+.myProfile2bbgbg1 ul li .spanThree img{
+	width:100%;
+	height:29px;
+}
+.myProfile2bbgbg1 ul  .specialli{
+	padding-left:55px;
+}
+.myProfile2bbgbg1 ul li .spanTwo img{
+	width:100%;
+	height:24px;
+}
+.hahyth{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/*修改昵称弹框样式*/
+.bs-example-modal-sm-myProfile11 .modal-header{
+	padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #d21e1e;
+    color: #ffffff;
+}
+.bs-example-modal-sm-myProfile11 .modal-body input{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	padding-left: 7px;
+	height: 35px;
+	border-radius: 4px;
+}
+.bs-example-modal-sm-myProfile11 .modal-body p{
+	color: #5a5a5a;
+}
+.bs-example-modal-sm-myProfile11 .modal-body .text-right{
+	padding-top: 10px;
+}
+.bs-example-modal-sm-myProfile11 .modal-body .text-right .btn {
+    background-color: #d21e1e;
+    color: #ffffff;
+    padding: 3px 12px;
+    border-color: #d21e1e;
+}
+.ningxia{
+	padding-top:8px;
+	padding-left:25px;
+	border-bottom:1px solid #dcdcdc;
+	padding-bottom:5px;
+}
+.ningxia .control-label{
+	float:left;
+	line-height:30px;
+}
+.ningxia .input-append{
+	float:left;
+	display:inline-block;
+}
+.ningxia input{
+	padding-left:5px;
+	border:1px solid #dcdcdc;
+	border-radius:4px;
+	margin-left:5px;
+	height:30px;
+	width: 115px;
+    background-image: url(../img/rili_14.png);
+    background-repeat: no-repeat;
+    background-position-x: 85px;
+    background-position-y: center;
+}
+.ningxia a{
+	display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #F0BE0A;
+    color: #ffffff;
+    border: 1px solid #F0BE0A;
+    text-decoration: none;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.ningxiaFriends p{
+	margin-bottom:5px;
+	padding-left:25px;
+	font-size:13px;
+}
+.liuyts{
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+}
+.yqm{
+	margin-top:5px;
+	border-bottom: 1px dashed hsl(0, 0%, 60%);
+	height:40px;
+	display:block;
+	padding-top:10px;
+	padding-left: 23px;
+	margin-bottom:10px;
+}
+.yqm p{
+	display:inline-block;
+	float:left;
+	line-height:20px;
+	margin-bottom:0px;
+}
+.yqm .copy1{
+	float:left;
+	display:inline-block;
+	width:40px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	color:#ffffff;
+	background-color:#d21e1e;
+	border-radius:4px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.copy-tips {
+    position: fixed;
+    z-index: 999;
+    bottom: 50%;
+    left: 50%;
+    margin: 0 0 -20px -80px;
+    background-color: rgba(0,0,0,0.2);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#30000000,endColorstr=#30000000);
+    padding: 6px;
+}
+.copy-tips-wrap {
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #f4d9a6;
+    background-color: #fffdee;
+    font-size: 14px;
+}
+
+
+.myIntegra .spanspeci{
+	padding-left:20px;
+}
+
+
+.myyaoqing{
+	padding:20px;
+}
+.myyaoqing .mysg{
+	padding-left: 23px;
+}
+.myyaoqing .speical-font{
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.hahyth table tr td{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:left;
+	padding-left:25px;
+	background-size:20px;
+	font-weight:bold;
+}
+.hahyth tr .one1{
+	background-image:url(../img/jf1.png);
+}
+.hahyth tr .one2{
+	background-image:url(../img/jf2.png);
+}
+.hahyth tr .one3{
+	background-image:url(../img/jf3.png);
+}
+.hahyth tr .one4{
+	background-image:url(../img/jf4.png);
+}
+.hahyth tr .one5{
+	background-image:url(../img/jf5.png);
+}
+.hahyth tr .one6{
+	background-image:url(../img/jf6.png);
+}
+.hahyth tr .one7{
+	background-image:url(../img/jf7.png);
+}
+.hahyth tr .one8{
+	background-image:url(../img/jf8.png);
+}
+/*平台信息css*/
+.myPtInformation{
+	height:auto;
+	padding:0px 20px;
+	padding-bottom:30px;
+}
+.myPtInformation .h5One{
+	display:block;
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	border-bottom:1px solid #959595;
+}
+.myPtInformation .h5One span{
+	display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid #d21e1e;
+    line-height: 38px;
+    color:#d21e1e;
+}
+.myPtInformation1{
+	padding:10px 20px;
+}
+.myPtInformation1 p{
+	line-height:30px;
+}
+.myPtInformation1 .inputOne{
+	width:502px;
+	height:30px;
+	border:1px solid #c7c7c7;
+	border-radius:4px;
+	padding:5px;
+	line-height:20px;
+}
+.myPtInformation1  p .spanOne{
+	display:inline-block;
+	float:left;
+}
+.myPtInformation1  p  .spanTwo{
+	display:inline-block;
+	width:555px;
+	height:30px;
+	float:left;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.myPtInformation1 .selectSp{
+	float:left;
+}
+.myPtInformation2{
+	height:auto;
+	padding-top:10px;
+	margin-top:20px;
+	border-top:1px dotted #aaaaaa;
+}
+.myPtInformation22{
+	height:auto;
+	padding-top:10px;
+	margin-top:20px;
+	text-align:center;
+}
+
+.myPtInformation1  .pOnesp{
+	padding-left:20px;
+	font-size:16px;
+	background-image:url(../img/wh.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:left;
+}
+.myPtInformation1  .pOnesp a{
+	text-decoration:underline;
+}
+.myPtInformation2 .inputThree{
+	width:703px;
+	height:28px;
+	border:1px solid #aaaaaa;
+	border-radius:4px;
+	padding:5px;
+	line-height:18px;
+	font-size:13px;
+	float:left;
+}
+.myPtInformation2  .sssp{
+	float:left;
+}
+.myPtInformation2 a{
+	display: inline-block;
+    width: 55px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #d21e1e;
+    color: #ffffff;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 4px;
+    opacity:.9;
+    text-decoration:none;
+    float:right;
+}
+.myPtInformation2 a:hover{
+	opacity:1;
+}
+.myPtInformation22 a{
+	text-decoration:none;
+	display:inline-block;
+	width:120px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:#d21e1e;
+	color:#ffffff;
+	border-radius:4px;
+	opacity:.9;
+}
+.myPtInformation22 a:hover{
+	opacity:1;
+}
+.noNumber{
+	height:auto;
+}
+.noNumber1{
+	height:400px;
+	background-image: url(../img/fsvip.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 342px;
+    text-align: center;
+}
+.noNumber1 a{
+	display:inline-block;
+	width:100px;
+	height:37px;
+	background-image: url(../img/qqcz.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.myyaoqing .ygmqq{
+	border-bottom:none;
+}
+.myyaoqing .ygmqqa{
+	margin-bottom: 0px;
+	padding-top: 0px;}

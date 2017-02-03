@@ -1,0 +1,11 @@
+
+.alert-dialog .modal-header{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.alert-dialog .modal-content{
+	margin-top: 175px;
+}
+.alert-dialog .modal-dialog{
+	width:455px;
+}

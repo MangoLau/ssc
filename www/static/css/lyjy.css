@@ -1,0 +1,245 @@
+.lyjy{
+	height: auto;
+	background-image: url(../img/jb.jpg);
+	margin-top: 10px;
+	border: 1px solid #e7e7e7;
+	border-top: none;
+}
+.lyjy1{
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	font-size: 16px;
+}
+.lyjy2{
+	height: auto;
+	border: 1px solid #e7e7e7;
+	border-top: none;
+	border-top: none;
+}
+.lyjy2a{
+	width: 140px;
+	float: left;
+	display: inline-block;
+	border-top: 1px solid #E7E7E7;
+}
+.lyjy2a ul li{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	border-bottom: 1px solid #E7E7E7;
+}
+.lyjy2a ul .active{
+	background-color: #FFFFFF;
+	border-right: none;
+	color: #05ad01;
+	position: relative;
+}
+.lyjy2a ul .active span{
+	position: absolute;
+	display: inline-block;
+	width: 144px;
+	height: 45px;
+	background-color: #FFFFFF;
+	background-image: url(../img/left_j.png);
+	background-repeat: no-repeat;
+	background-position: 120px center;
+	*background-position-x: 120px;
+	*background-position-y: center;
+	left: 0px;
+	z-index: 1;
+}
+
+.lyjy2b{
+	width: 870px;
+	float: left;
+	background-color: #FFFFFF;
+	padding-left: 70px;
+	padding-top:23px ;
+	border: 1px solid #E7E7E7;
+	margin-bottom: 40px;
+	padding-right: 70px;
+	position: relative;
+}
+.lyjy2b1{
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #E7E7E7;
+	background-image: url(../img/ly_1.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	*background-position-y: center;
+	padding-left: 35px;
+	font-size: 15px;
+}
+.lyjy2b2{
+	height: auto;
+	padding-left: 90px;
+}
+.lyjy2b2 ul li{
+	height: 45px;
+	line-height: 45px;
+}
+.lyjy2b2 ul li .spanOne{
+	float: left;
+}
+.lyjy2b2 ul .heightL{
+	height: 151px;
+}
+.lyjy2b2 ul .heightL textarea{
+	width: 510px;
+	height: 151px;
+	resize: none;
+	line-height:18px;
+	padding:5px;
+	font-size:12px;
+}
+.lyjy2b2 ul li .spanTwo{
+	float: left;
+	padding-right: 5px;
+}
+.lyjy2b2 ul li .select2-container{
+	margin-top:8px;
+} 
+.lyjy2b2 ul .heightL em.spanOne{
+	line-height: 20px;
+}
+.lyjy2b2 ul .heightL .spanTwo{
+	line-height: 20px;
+}
+.lyjy2b2 ul li .spanThree{
+	padding-left: 50px;
+	color: #999999;
+}
+.lyjy2b2 ul li input{
+	width: 380px;
+	height: 40px;
+	vertical-align: middle;
+	border: 1px solid #E7E7E7;
+	line-height: 20px;
+    padding-left: 5px;
+}
+.lyjy2b2 ul li .spanFour{
+	float: right;
+	color: #999999;
+}
+.lyjy2b2 .text-center{
+	height: 34px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.lyjy2b2 .text-center div{
+	display: inline-block;
+	height: 34px;
+	width: auto;
+	padding-right:62px;
+}
+.lyjy2b2 .text-center div a{
+	display: inline-block;
+	width: 104px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 4px;
+	text-decoration: none;
+}
+.lyjy2b2 .text-center div a:hover{
+	text-decoration: none;
+}
+.lyjy2b2 .text-center div .one{
+	background-image: url(../img/ly_3.png);
+	color: #666666;
+}
+.lyjy2b2 .text-center div .two{
+	background-image: url(../img/ly_4.png);
+	color: #FFFFFF;
+}
+.lyjy2bab{
+	display: inline-block;
+	width: 35px;
+	height: 42px;
+	/* background-image: url(../img/ly_2.png);
+	background-repeat: no-repeat;
+	background-position: center; */
+	position: absolute;
+	top:-30px;
+	right: -20px;
+}
+.lyjy2b h5{
+	font-size:14px;
+}
+
+
+
+
+/*新增加的css*/
+.zxkf{
+	padding-bottom: 133px;
+}
+.zxkf h5{
+	font-size: 16px;
+}
+.zxkf p{
+	margin-bottom: 7px;
+	background-repeat: no-repeat;
+	padding-left: 27px;
+	line-height: 24px;
+}
+.zxkf .pOne{
+	background-image: url(../img/zxkf_1.png);
+	background-position: 0px 5px;
+	*background-position-y: 5px;
+}
+.zxkf .pTwo{
+	background-image: url(../img/zxkf_2.png);
+	background-position: 0px 2px;
+	background-position-y: 2px;
+}
+.zxkf .pThree{
+	background-image: url(../img/zxkf_3.png);
+	background-position: 0px 2px;
+	background-position-y: 2px;
+}
+.zxkf1{
+	height: 300px;
+	background-image: url(../img/zxkf_ps.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.aboutUs{
+	display: inline-block;
+	width: 312px;
+	height: 27px;
+	margin: 0px auto;
+	background-image: url(../img/about_us.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 5px;
+}
+.aboutUsMe{
+	padding-top: 55px;
+	padding-bottom: 125px;
+}
+.aboutUsMe p{
+	height: auto;
+	text-indent: 2em;
+}
+.lyjy2b .colorBlck{
+	color: #333333;
+	padding: 0px;
+	font-size: 16px;
+}
+.wzStation{
+	padding-left: 24px;
+}
+.wzStation p{
+	height: auto;
+	margin-bottom: 5px;
+	color: #666666;
+	padding-left: 8px;
+}

@@ -1,0 +1,125 @@
+.gonggao{
+	height: auto;
+    border: 1px solid #dcdcdc;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FDFDFD;
+}
+.gonggao1{
+	height: 34px;
+    padding-left: 36px;
+    line-height: 34px;
+    background-image: url(../img/gg_0.png);
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #F39800;
+}
+.gonggao2{
+	padding-top: 10px;
+}
+.gonggao2 h3 {
+    margin-top: 0px;
+    text-indent: 1em;
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.gonggao2 h3 a{
+	color: #555555;
+	font-size:16px;
+	font-weight:bold;
+}
+.gonggao2 h3 a:hover{
+	color: #D21E1E;
+	text-decoration:underline;
+}
+.gonggao2 p{
+	text-indent: 1.3em;
+	line-height: 23px;
+	font-size: 12px;
+	padding-right: 30px;
+	color:#888888;
+}
+.gonggao3{
+	padding-left:20px;
+}
+.gonggao3 span{
+	display: inline-block;
+	padding-left: 27px;
+	line-height: 26px;
+	height: 26px;
+	font-size: 12px;
+	background-repeat: no-repeat;
+	background-image: url(../img/001.png);
+	background-size: 18px;
+    background-position-y: 3px;
+}
+.gonggao22{
+	height: auto;
+	border-bottom:1px solid #eeeeee ;
+	padding-bottom: 10px;
+}
+.newInfo3{
+	padding: 20px 20px 0px 98px;
+    border-radius: 4px;
+}
+.newInfo3 .modal-footer{
+	border:none;
+	margin-top:0px;
+}
+.newInfo3 .modal-footer .pagination a {
+    margin: 0px;
+    border-radius: 0px;
+    border-right: none;
+    color: #333333;
+}
+.newInfo3 .newCommerClass2sas .modal-footer{
+	padding:5px;
+	border:none;
+}
+.newInfo3 .modal-footer .pagination{
+	margin:0px;
+	margin-bottom:20px;
+}
+.newInfo3  .modal-footer .pagination a{
+	margin:0px;
+	border-radius:0px;
+	border-right:none;
+	color:#333;
+}
+.newInfo3  .modal-footer .pagination{
+	border-right:1px solid #dcdcdc;
+}
+.newInfo3  .modal-footer .pagination .active a{
+	background-color:#52C800;
+	border-color:#52C800;
+	color:#ffffff;
+}
+.newInfo3 a {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+    background: #F2F9FF;
+    border-radius: 5px;
+    outline: none;
+}
+.newInfo3 .active{
+    background-color:#D21E1E;
+    color: #FFFFFF;
+}
+.newInfo3 input {
+    width: 40px;
+    height: 23px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.newInfo3 .btn-one {
+    border: none;
+    background: none;
+    color: #D21E1E;
+    outline: none;
+}

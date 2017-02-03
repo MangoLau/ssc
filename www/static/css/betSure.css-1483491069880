@@ -1,0 +1,21 @@
+.chase-sure{
+	margin-top: 175px;
+}
+.chase-sure .modal-header{
+	padding: 5px 15px;
+}
+.daojiTimer span{
+	font-size:12px;
+}
+.daojiTimer{
+	padding:0px;
+}
+.five-star-double2b2e2 .btn-four{
+	position: relative;
+}
+.five-star-double2b2e2 .btn-four span{
+	position: absolute;
+	left: 7px;
+	bottom: 5px;
+	color: #FFFFFF;
+}

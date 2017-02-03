@@ -1,0 +1,219 @@
+.new-special{
+	height: auto;
+	border: 1px solid #f9ead5;
+	border-top: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-image: url(../img/ss_bg_03.png);
+}
+.new-special6{
+	width: 153px;
+	text-align: center;
+	float: left;
+	background-image: url(../img/la_00.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-position-y:center;
+	height: 72px;
+	padding-top:10px;
+}
+.new-special1{
+	width: 105px;
+	text-align: center;
+	float: left;
+	background-image: url(../img/la_00.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-position-y:center;
+	height: 72px;
+	padding-top:5px;
+}
+.new-special1 .span-one{
+	display: inline-block;
+	padding-left: 22px;
+	height: 18px;
+	line-height: 18px;
+	background-image: url(../img/new_1_03.png);
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+.new-special6 .span-one{
+	display: inline-block;
+	padding-left: 22px;
+	height: 18px;
+	line-height: 18px;
+	background-image: url(../img/new_1_03.png);
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+.new-special1 .span-two{
+	display: inline-block;
+	height: 29px;
+	line-height: 29px;
+	font-size: 13px;
+	margin-bottom:5px;
+}
+.new-special1 img{
+	display:inline-block;
+}
+/*.new-special1 .level1{
+	background-image: url(../img/v5.png);
+}
+.new-special1 .level2{
+	background-image: url(../img/v10.png);
+}
+.new-special1 .level3{
+	background-image: url(../img/v15.png);
+}
+.new-special1 .level4{
+	background-image: url(../img/v20.png);
+}
+.new-special1 .level5{
+	background-image: url(../img/v25.png);
+}*/ 
+.new-special2{
+	float: left;
+	height: 60px;
+	width: 130px;
+	text-align: center;
+	line-height: 60px;
+	display: inline-block;
+	font-size: 13px;
+	padding-top:10px;
+}
+.new-special2 .ten{
+	display:inline-block;
+	padding-left:20px;
+	background-image: url(../img/vip_2.png);
+	background-repeat: no-repeat;
+	height:18px;
+	line-height:18px;
+	float:none;
+	clear:both;
+	margin-bottom:5px;
+}
+.new-special10{
+	float: left;
+	height: 60px;
+	width: 162px;
+	text-align: center;
+	line-height: 60px;
+	display: inline-block;
+	font-size: 13px;
+}
+.new-special12{
+	float: left;
+	height: 60px;
+	width: 162px;
+	text-align: center;
+	line-height: 60px;
+	display: inline-block;
+	font-size: 13px;
+}
+.new-special5{
+	float: left;
+	height: 72px;
+	width: 90px;
+	text-align: center;
+	line-height: 60px;
+	display: inline-block;
+	font-size: 13px;
+	padding-left:5px;
+	padding-top:10px;
+	background-image: url(../img/la_00.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-position-y:center;
+}
+.new-special .special .color_main{
+	height: 24px;
+    clear: both;
+    float: none;
+}
+.new-special5 .eleven{
+	display:inline-block;
+	padding-left:23px;
+	height:18px;
+	line-height:18px;
+	background-image: url(../img/vip_1.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin-bottom:10px;
+	float:none;
+}
+.new-special5 p{
+	line-height:20px;
+}
+.new-special2 p{
+	line-height:14px;
+}
+.new-special5 span{
+	float:left;
+}
+.new-special5 .color_main{
+	display:inline-block;
+	width:70px;
+	height:60px;
+	background-image: url(../img/user.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.new-special10 .span-one{
+	display: inline-block;
+	padding-left: 20px;
+	height:60px;
+	background-image: url(../img/user_03.png);
+	background-position:0px 21px;
+	*background-position-y: 21px;
+    background-repeat: no-repeat;
+    color:#0CA0D0 ;
+}
+.new-special3{
+	height: 72px;
+	padding-top:10px;
+}
+.new-special12 .span-one{
+	display: inline-block;
+    padding-left: 20px;
+    background-image: url(../img/user_03.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    line-height: 18px;
+    float: none;
+    clear: both;
+    margin-bottom: 10px;
+}
+.new-special3 p{
+	height:20px;
+	line-height:20px;
+}
+.new-special2 .color_main{
+	font-weight:bold;
+}
+.new-special3 .strongNow{
+	font-weight:bold;
+}
+.new-special4{
+	padding-left: 10px;
+	display: inline-block;
+	height: 60px;
+	font-size: 13px;
+}
+.new-special4 p{
+	margin: 0px;
+	padding-top: 8px;
+}
+.btn-brother{
+	margin:0px;
+}
+.btnparents .helpNow{
+	line-height: 20px;
+    font-size: 12px;
+    color:#3F79D0;
+    text-decoration:underline;
+}
+.btnparents .helpNow:hover{
+	color:#d21e1e;
+}

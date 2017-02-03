@@ -1,0 +1,140 @@
+.newCommerClass{
+	height: auto;
+	padding-top: 20px;
+	background-color:#fdfdfd;
+}
+.newCommerClass a{
+	outline: none;
+}
+.newCommerClass1{
+	height: 186px;
+	background-color:#FDFDFD;
+	background-image: url(../img/cm.jpg);
+	background-repeat:repeat-y;
+	background-size: 673px;
+}
+.newCommerClass1 ul{
+	margin:0px;
+}
+.newCommerClass1 ul .liOne{
+	width: 91px;
+    float: left;
+    padding-top: 27px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    color: #333333;
+    padding-left:5px;
+    height: 90px;
+    text-align: center;
+}
+.newCommerClass1 ul .liTwo{
+	width: 620px;
+	float: right;
+	line-height: 28px;
+    padding-top: 30px;
+    height: 175px;
+    font-size: 14px;
+    padding-right: 64px;
+    color: #898989;
+    padding-left: 15px;
+    overflow: hidden;
+}
+.newCommerClass1 ul .liTwo p{
+	margin-bottom:5px;
+	font-size:14px;
+	color:#888888;
+}
+.newCommerClass1 ul .liTwo .color-special{
+	color:#555555;
+	font-size:16px;
+	font-weight:bold;
+}
+.mainColor{
+	color: #D21E1E;
+}
+ ul .liTwo .color-special{
+	color: #333333;
+	font-size: 14px;
+}
+ ul .liTwo p{
+	color: #666666;
+	font-size: 13px;
+	max-height:71px;
+}
+ ul .liTwo .spanONe{
+	display: inline-block;
+	font-size: 12px;
+	height: 20px;
+	width: auto;
+	line-height: 18px;
+	padding-left: 23px;
+	background-image: url(../img/newCommer_01.png);
+	background-repeat: no-repeat;
+	background-position:0px -2px;
+	*background-position-y: -2px;
+	margin-top:18px;
+}
+.newCommerClass2{
+	padding: 20px 20px 0px 98px;
+    border-radius: 4px;
+}
+.newCommerClass2 .pagination > li:first-child > a{
+	border-radius:0px;
+	
+}
+.newCommerClass2 .pagination > .disabled > a{
+	border-radius:0px;
+	
+}
+.newCommerClass2 a{
+	display: inline-block;
+    padding: 3px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+    background: #F2F9FF;
+    border-radius: 5px;
+}
+.newCommerClass2 a:hover{
+	background: #D21E1E;
+	color: #FFFFFF;
+}
+.newCommerClass2 .current{
+	background-color: #D21E1E;
+	color: #FFFFFF;
+}
+.newCommerClass2 input{
+	width: 40px;
+	height: 23px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-size: 12px;
+	line-height: 12px;
+}
+.newCommerClass2 .btn{
+	border: none;
+	background: none;
+	color: #D21E1E;
+}
+.newCommerClass2 .newCommerClass2sas .pagination li a {
+    padding: 3px 12px;
+    font-size: 13px;
+    color: #666666;
+    margin:0px;
+    border-radius:0px;
+    border-right:0px;
+}
+.newCommerClass2 .newCommerClass2sas .pagination > .active > a{
+	background-color:#52C800;
+	color:#ffffff;
+	border-color:#52C800;
+}
+.newCommerClass2 .newCommerClass2sas .pagination{
+	border-right:1px solid #dcdcdc;
+}
+.newCommerClass2 .newCommerClass2sas .modal-footer{
+	border:none;
+}

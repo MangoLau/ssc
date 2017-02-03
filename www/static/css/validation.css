@@ -1,0 +1,38 @@
+{
+	font-size:10px;
+}
+input.error {
+	border: 1px solid red;
+}
+
+label.error {
+	padding-bottom: 2px;
+	width: 100%;
+	text-align: left;
+	padding-top: 3px;
+}
+label.logerror {
+	padding-bottom: 2px;
+	color: #f00000;
+	width: 206px;
+    text-align: left;
+    padding-top:3px;
+}
+
+label.success {
+	color: #85c226;
+	padding-bottom: 2px;
+	width: 100%;
+	text-align: right;
+}
+.error-lable{
+	margin-bottom:10px;
+	padding-left:57px;
+}
+.login-chage label.error{
+	padding-left:79px;
+	font-size:13px;
+}
+.login-true1c1b label.error .spsp{
+	color: #f0ff20;
+}

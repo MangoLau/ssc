@@ -1,0 +1,58 @@
+.dianzan .modal-dialog{
+	width: 380px;
+	font-size: 12px;
+}
+.dianzan .modal-content{
+	border-radius: 0px;
+}
+.dianzan .modal-title{
+	font-weight: bold;
+	font-size: 14px;
+}
+.dianzan .close{
+	opacity: .9;
+}
+.dianzan .dianzan1{
+	height: 273px;
+}
+.dianzan .dianzan1 ul{
+	margin: 0px;
+}
+.dianzan .dianzan1 ul li{
+	display: block;
+	position: relative;
+    line-height: 18px;
+    padding: 5px 10px 5px 58px;
+    vertical-align: bottom;
+}
+.dianzan .dianzan1 ul li .aONee{
+	position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.dianzan .dianzan1 ul li a img{
+	vertical-align: top;
+    width: 30px;
+    height: 30px;
+}
+.dianzan .dianzan1 ul li p{
+	margin: 0px;
+}
+.dianzan .dianzan1 ul li .skan-name a{
+	white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+    display: block;
+    color: #436484;
+}
+.dianzan .dianzan1 ul li .skan-detail{
+	color: #999999;
+}
+.dianzan .dianzan1 ul li .skan-detail span {
+    margin-right: 5px;
+}
+.dianzan .btn{
+	padding: 3px 12px;
+}
