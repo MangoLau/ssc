@@ -19,6 +19,7 @@ require 'lib/core/Object.class';
 require 'ldaction/default/WebBase.class.php';
 require 'ldaction/default/WebLoginBase.class.php';
 require 'ldconfig.php';
+require 'lib/functions.php';
 
 $ot=array("coinPassword","coinpwd","cpasswd","newpassword","oldpassword","oldpwd","password");
 match($_SERVER['PATH_INFO']);

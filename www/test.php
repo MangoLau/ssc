@@ -1,4 +1,5 @@
 <?php
+require 'lib/functions.php';
 function dws($numArr) {
     $count = count($numArr);
     $resultSet = array();
@@ -73,4 +74,64 @@ function returnStarAll($type) {
     return $result;
 }
 
-var_export(returnStarAll('fiveStar'));
+function returnNumberSelfSum($number='') {
+	$number = strval($number);
+	$len = mb_strlen($number);
+	if($len<1) return $number;
+	$sum = 0;
+	for($i = 0; $i < $len; $i++){
+		$sum += $number[$i];
+	}
+	return $sum;
+}
+
+function hzs($numArr=array(), $zhgjType='') {
+	$numbersArr = CFG('starAll',$zhgjType);
+	$return = array();
+	foreach($numbersArr as $number) {
+		$sumTemp = returnNumberSelfSum($number);
+		if(in_array($sumTemp, $numArr)) {
+			$return[] = $number;
+		}
+	}
+	return $return;
+}
+
+$bigNums = array(5,6,7,8,9);
+$smallNums = array(0,1,2,3,4);
+$dxNums = array(
+	'd' => array(5,6,7,8,9),
+	'x' => array(0,1,2,3,4),
+);
+$fourSet = array(
+	'dddd',
+	'dddx',
+	'ddxd',
+	'ddxx',
+	'dxdd',
+	'dxdx',
+	'dxxd',
+	'dxxx',
+	'xddd',
+	'xddx',
+	'xdxd',
+	'xdxx',
+	'xxdd',
+	'xxdx',
+	'xxxd',
+	'xxxx'
+);
+
+foreach($fourSet as $num) {
+
+}
+
+$file = 'config/two.php';
+$contents = '<?php'.PHP_EOL;
+$contents .= 'return array('.PHP_EOL.'\'xxxxx\' => ';
+	$arr = dws(array($first,$second,$third,$fourth));
+$contents .= var_export($arr, true);
+$contents .= ','.PHP_EOL.');';
+file_put_contents($file,$contents);
+//echo $contents;
+//var_export($arr);
