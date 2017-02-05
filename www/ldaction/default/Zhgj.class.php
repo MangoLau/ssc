@@ -27,27 +27,9 @@ class Zhgj extends WebLoginBase{
         $zhgjType = trim($_POST['zhgjType']);
         $danMaNum = $_POST['danMaNum'];
         $danMaKeepOrDel = $_POST['danMaKeepOrDel'];
-        $firstNum = $_POST['firstNum'];
-        $firstNumKeepOrDel = $_POST['firstNumKeepOrDel'];
-        $secondNum = $_POST['secondNum'];
-        $secondNumKeepOrDel = $_POST['secondNumKeepOrDel'];
-        $thirdNum = $_POST['thirdNum'];
-        $thirdNumKeepOrDel = $_POST['thirdNumKeepOrDel'];
-        $fourthNum = $_POST['fourthNum'];
-        $fourthNumKeepOrDel = $_POST['fourthNumKeepOrDel'];
-        $fifthNum = $_POST['fifthNum'];
-        $fifthNumKeepOrDel = $_POST['fifthNumKeepOrDel'];
-        $spanNum = $_POST['spanNum'];
-        $spanKeepOrDel = $_POST['spanKeepOrDel'];
-        $endValueNum = $_POST['endValueNum'];
-        $endValueKeepOrDel = $_POST['endValueKeepOrDel'];
-        $sumValueNum = $_POST['sumValueNum'];
         $sumValueKeepOrDel = $_POST['sumValueKeepOrDel'];
-        $bigSmallNum = $_POST['bigSmallNum'];
         $bigSmallKeepOrDel = $_POST['bigSmallKeepOrDel'];
-        $evenOddNum = $_POST['evenOddNum'];
         $evenOddKeepOrDel = $_POST['evenOddKeepOrDel'];
-        $primeCompositeNum = $_POST['primeCompositeNum'];
         $primeCompositeKeepOrDel = $_POST['primeCompositeKeepOrDel'];
         $approachNum = $_POST['approachNum'];
         $approachKeepOrDel = $_POST['approachKeepOrDel'];
@@ -100,65 +82,93 @@ class Zhgj extends WebLoginBase{
         $zuXuanType = $_POST['zuXuanType'];
         $specilFirstNum = $_POST['specilFirstNum'];
         $specilSecondNum = $_POST['specilSecondNum'];
+		if($zhgjType == 'twoStar')
         $result['success'] = false;
-        switch($zhgjType) {
-            case 'twoStar':
-                $temp = self::twoStarSet();
-                if($temp !== false) {
-                    $result['success'] = true;
-                    $result['resultSet'] = $temp;
-                }
-                break;
-            case 'threeStar':
-                break;
-            case 'fourStar':
-                break;
-            case 'fiveStar':
-                break;
-            default:
-                break;
-        }
+		$numArr = self::_returnDwsNums($zhgjType);
+		$resultSet = self::_dws($numArr);//定位杀
+		if($_POST['endValueNum'] !=='' && $_POST['endValueKeepOrDel'] == 'keep') {//和尾选
+			$endValueArr = explode(',', $_POST['endValueNum']);
+			$hwx = self::_hwx($endValueArr, $zhgjType);
+			$resultSet = array_intersect($resultSet, $hwx);
+		}
+		if($_POST['spanNum'] !== '' && $_POST['spanKeepOrDel']) {//跨度选
+			$spanNumArr = explode(',', $_POST['spanNum']);
+			$kdx = self::_kdx($spanNumArr, $zhgjType);
+			$resultSet = array_intersect($resultSet, $kdx);
+		}
+		if($_POST['danMaNum'] !== '' && $_POST['danMaKeepOrDel'] == 'keep') {//胆码选
+			$danMaArr = explode(',', $_POST['danMaNum']);
+			$dmx = self::_dmx($danMaArr,$zhgjType,$_POST['chuDanNum']);
+			$resultSet = array_intersect($resultSet, $dmx);
+		}
+		if($_POST['consecutive'] == 1) {//不连
+
+		}
+		if($_POST['consecutive'] == 2) {//2连
+
+		}
+		if($_POST['sumValueNum'] !== '') {//和值杀
+			$sumValueNumArr = explode(',', $_POST['sumValueNum']);
+			$hzs = self::_hzx($sumValueNumArr, $zhgjType);
+			$resultSet = array_intersect($resultSet, $hzs);
+		}
+		if(!empty($_POST['bigSmallNum'])) {//杀大小
+			$bigSmallNum = explode(',', $_POST['bigSmallNum']);
+			$shadaxiao = self::_shadaxiao($bigSmallNum, $zhgjType);
+			$resultSet = array_intersect($resultSet, $shadaxiao);
+		}
+		if(!empty($_POST['evenOddNum'])) {//杀奇偶
+			$evenOddNum = explode(',', $_POST['evenOddNum']);
+			$shajiou = self::_shajiou($evenOddNum, $zhgjType);
+			$resultSet = array_intersect($resultSet, $shajiou);
+		}
+		if(!empty($_POST['primeCompositeNum'])) {//杀质合
+			$primeCompositeNum = explode(',', $_POST['primeCompositeNum']);
+			$shazhihe = self::_shazhihe($primeCompositeNum, $zhgjType);
+			$resultSet = array_intersect($resultSet, $shazhihe);
+		}
+		if($resultSet !== false) {
+			$result['resultSet'] = $resultSet;
+			$result['success'] = true;
+		}
         return $result;
     }
 
-    private function twoStarSet() {
-        $zhgjType = $_POST['zhgjType'];
-        $firstNum = $_POST['firstNum'];
-        $secondNum = $_POST['secondNum'];
-        $firstArr = explode(',', $firstNum);
-        $secondArr = explode(',', $secondNum);
-        $firstArr = empty($firstArr) ? range(0,9) : $firstArr;
-        $secondArr = empty($secondArr) ? range(0,9) : $secondArr;
-        $numArr = array($firstArr,$secondArr);
-        $resultSet = self::dws($numArr);//定位杀
-        if($_POST['endValueNum'] !=='' && $_POST['endValueKeepOrDel'] == 'keep') {//和尾选
-            $endValueArr = explode(',', $_POST['endValueNum']);
-            $hwx = self::hwx($endValueArr, $zhgjType);
-            $resultSet = array_intersect($resultSet, $hwx);
-        }
-        if($_POST['spanNum'] !== '' && $_POST['spanKeepOrDel']) {//跨度选
-            $spanNumArr = explode(',', $_POST['spanNum']);
-            $kdx = self::kdx($spanNumArr, $zhgjType);
-            $resultSet = array_intersect($resultSet, $kdx);
-        }
-        if($_POST['danMaNum'] !== '' && $_POST['danMaKeepOrDel'] == 'keep') {//胆码选
-            $danMaArr = explode(',', $_POST['danMaNum']);
-            $dmx = self::dmx($danMaArr,$zhgjType,$_POST['chuDanNum']);
-            $resultSet = array_intersect($resultSet, $dmx);
-        }
-        if($_POST['consecutive'] == 1) {//不连
-
-        }
-        if($_POST['consecutive'] == 2) {//2连
-
-        }
-        if($_POST['sumValueNum'] !== '') {//和值杀
-            $sumValueNumArr = explode(',', $_POST['sumValueNum']);
-            $hzs = self::hzx($sumValueNumArr, $zhgjType);
-            $resultSet = array_intersect($resultSet, $hzs);
-        }
-        return $resultSet;
-    }
+	/**
+	 * 返回定位杀数组
+	 * @param $zhgjType
+	 * @return array
+	 */
+	private function _returnDwsNums($zhgjType) {
+		$firstArr = explode(',', $_POST['firstNum']);
+		$secondArr = explode(',', $_POST['secondNum']);
+		$thirdArr = explode(',', $_POST['thirdNum']);
+		$fourthArr = explode(',', $_POST['fourthNum']);
+		$fifthArr = explode(',', $_POST['fifthNum']);
+		$firstArr = empty($firstArr) ? range(0,9) : $firstArr;
+		$secondArr = empty($secondArr) ? range(0,9) : $secondArr;
+		$thirdArr = empty($thirdArr) ? range(0,9) : $thirdArr;
+		$fourthArr = empty($fourthArr) ? range(0,9) : $fourthArr;
+		$fifthArr = empty($fifthArr) ? range(0,9) : $fifthArr;
+		$return = array();
+		switch($zhgjType) {
+			case 'twoStar':
+				$return = array($firstArr, $secondArr);
+				break;
+			case 'threeSatr':
+				$return = array($firstArr, $secondArr, $thirdArr);
+				break;
+			case 'fourStar':
+				$return = array($firstArr, $secondArr, $thirdArr, $fourthArr);
+				break;
+			case 'fiveStar':
+				$return = array($firstArr, $secondArr, $thirdArr, $fourthArr, $fifthArr);
+				break;
+			default:
+				break;
+		}
+		return $return;
+	}
 
     /**
      * 转为组选
@@ -194,7 +204,7 @@ class Zhgj extends WebLoginBase{
         $numbersArr = explode(',', $numbers);
         $reverseType = $_POST['reverseType'];
         $return['success'] = false;
-        $tempArr = self::returnStarAll($reverseType);
+        $tempArr = self::_returnStarAll($reverseType);
         if($tempArr !== false) {
             $return['success'] = true;
             $return['data'] = array_diff($tempArr, $numbersArr);
@@ -207,7 +217,7 @@ class Zhgj extends WebLoginBase{
      * @param $numArr
      * @return array|bool
      */
-    private function dws($numArr) {
+    private function _dws($numArr) {
         $count = count($numArr);
         $resultSet = array();
         switch($count) {
@@ -264,11 +274,11 @@ class Zhgj extends WebLoginBase{
      * @param string $zhgjType
      * @return array
      */
-    private function hwx($numArr=array(), $zhgjType) {
-        $numbersArr = self::returnStarAll($zhgjType);
+    private function _hwx($numArr=array(), $zhgjType) {
+        $numbersArr = self::_returnStarAll($zhgjType);
         $return = array();
         foreach($numbersArr as $number) {
-            $sumMod = round(self::returnNumberSelfSum($number) % 10);
+            $sumMod = round(self::_returnNumberSelfSum($number) % 10);
             if(in_array($sumMod, $numArr)) {
                 $return[] = $number;
             }
@@ -282,11 +292,11 @@ class Zhgj extends WebLoginBase{
      * @param $zhgjType
      * @return array
      */
-    private function kdx($numArr=array(), $zhgjType) {
-        $numbersArr = self::returnStarAll($zhgjType);
+    private function _kdx($numArr=array(), $zhgjType) {
+        $numbersArr = self::_returnStarAll($zhgjType);
         $return = array();
         foreach($numbersArr as $number) {
-            $span = self::returnNumberSelfSpan($number);
+            $span = self::_returnNumberSelfSpan($number);
             if(in_array($span, $numArr)) {
                 $return[] = $number;
             }
@@ -294,7 +304,7 @@ class Zhgj extends WebLoginBase{
         return $return;
     }
 
-    private function dmx($numArr=array(), $zhghType, $chudanNum) {
+    private function _dmx($numArr=array(), $zhghType, $chudanNum) {
         $return = array();
         return $return;
     }
@@ -305,11 +315,11 @@ class Zhgj extends WebLoginBase{
      * @param string $zhgjType
      * @return array
      */
-    private function hzs($numArr=array(), $zhgjType='') {
-        $numbersArr = self::returnStarAll($zhgjType);
+    private function _hzs($numArr=array(), $zhgjType='') {
+        $numbersArr = self::_returnStarAll($zhgjType);
         $return = array();
         foreach($numbersArr as $number) {
-            $sumTemp = self::returnNumberSelfSum($number);
+            $sumTemp = self::_returnNumberSelfSum($number);
             if(in_array($sumTemp, $numArr)) {
                 $return[] = $number;
             }
@@ -323,11 +333,95 @@ class Zhgj extends WebLoginBase{
 	 * @param string $zhgjType
 	 * @return array
 	 */
-	private function hzx($numArr=array(), $zhgjType='') {
+	private function _hzx($numArr=array(), $zhgjType='') {
 		$return = array();
 		foreach($numArr as $num) {
 			$return = array_merge($return, CFG($zhgjType,'hzx.'.$num));
 		}
+		return $return;
+	}
+
+	/**
+	 * 大小选
+	 * @param array $arr
+	 * @param string $zhgjType
+	 * @return array
+	 */
+	private function _daxiaoxuan($arr=array(), $zhgjType='') {
+		$return = array();
+		foreach($arr as $v) {
+			$return = array_merge($return, CFG($zhgjType.'dx',$v));
+		}
+		return $return;
+	}
+
+	/**
+	 * 杀大小
+	 * @param array $arr
+	 * @param string $zhgjType
+	 * @return array
+	 */
+	private function _shadaxiao($arr=array(), $zhgjType='') {
+		$arr = getArrChinese2Pinyin($arr);
+		$all = self::_returnStarAll($zhgjType);
+		$daxiaoxuan = self::_daxiaoxuan($arr, $zhgjType);
+		$return = array_diff($all, $daxiaoxuan);
+		return $return;
+	}
+
+	/**
+	 * 奇偶选
+	 * @param array $arr
+	 * @param string $zhgjType
+	 * @return array
+	 */
+	private function _jiouxuan($arr=array(), $zhgjType='') {
+		$return = array();
+		foreach($arr as $v) {
+			$return = array_merge($return, CFG($zhgjType.'jo',$v));
+		}
+		return $return;
+	}
+
+	/**
+	 * 杀奇偶
+	 * @param array $arr
+	 * @param string $zhgjType
+	 * @return array
+	 */
+	private function _shajiou($arr=array(), $zhgjType='') {
+		$arr = getArrChinese2Pinyin($arr);
+		$all = self::_returnStarAll($zhgjType);
+		$jiouxuan = self::_jiouxuan($arr, $zhgjType);
+		$return = array_diff($all, $jiouxuan);
+		return $return;
+	}
+
+	/**
+	 * 质合选
+	 * @param array $arr
+	 * @param string $zhgjType
+	 * @return array
+	 */
+	private function _zhihexuan($arr=array(), $zhgjType='') {
+		$return = array();
+		foreach($arr as $v) {
+			$return = array_merge($return, CFG($zhgjType.'zh',$v));
+		}
+		return $return;
+	}
+
+	/**
+	 * 杀质合
+	 * @param array $arr
+	 * @param string $zhgjType
+	 * @return array
+	 */
+	private function _shazhihe($arr=array(), $zhgjType='') {
+		$arr = getArrChinese2Pinyin($arr);
+		$all = self::_returnStarAll($zhgjType);
+		$zhihexuan = self::_zhihexuan($arr, $zhgjType);
+		$return = array_diff($all, $zhihexuan);
 		return $return;
 	}
 
@@ -336,7 +430,7 @@ class Zhgj extends WebLoginBase{
      * @param $type
      * @return array|bool
      */
-    private function returnStarAll($type) {
+    private function _returnStarAll($type) {
         switch($type) {
             case 'twoStar':
             case 'threeStar':
@@ -356,7 +450,7 @@ class Zhgj extends WebLoginBase{
      * @param $number
      * @return int
      */
-    private function returnNumberSelfSum($number='') {
+    private function _returnNumberSelfSum($number='') {
         $number = strval($number);
         $len = mb_strlen($number);
         if($len<1) return $number;
@@ -372,7 +466,7 @@ class Zhgj extends WebLoginBase{
      * @param string $number
      * @return int|string
      */
-    private function returnNumberSelfSpan($number='') {
+    private function _returnNumberSelfSpan($number='') {
         $number = strval($number);
         $len = mb_strlen($number);
         if($len<1) return $number;

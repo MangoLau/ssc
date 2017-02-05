@@ -1,5 +1,6 @@
 <?php
 require 'lib/functions.php';
+
 function dws($numArr) {
     $count = count($numArr);
     $resultSet = array();
@@ -99,39 +100,247 @@ function hzs($numArr=array(), $zhgjType='') {
 
 $bigNums = array(5,6,7,8,9);
 $smallNums = array(0,1,2,3,4);
-$dxNums = array(
+$numsArr = array(
 	'd' => array(5,6,7,8,9),
 	'x' => array(0,1,2,3,4),
+	'z' => array(2,3,5,7),//质数
+	'h' => array(4,6,8,9),//合数
+	'j' => array(1,3,5,7,9),//奇数
+	'o' => array(0,2,4,6,8),//偶数
 );
-$fourSet = array(
-	'dddd',
-	'dddx',
-	'ddxd',
-	'ddxx',
-	'dxdd',
-	'dxdx',
-	'dxxd',
-	'dxxx',
-	'xddd',
-	'xddx',
-	'xdxd',
-	'xdxx',
-	'xxdd',
-	'xxdx',
-	'xxxd',
-	'xxxx'
+$arr = array();
+/*$fiveSet = array(
+	'daxiao' => array(
+		'ddddd',
+		'ddddx',
+		'dddxd',
+		'dddxx',
+		'ddxdd',
+		'ddxdx',
+		'ddxxd',
+		'ddxxx',
+		'dxddd',
+		'dxddx',
+		'dxdxd',
+		'dxdxx',
+		'dxxdd',
+		'dxxdx',
+		'dxxxd',
+		'dxxxx',
+		'xdddd',
+		'xdddx',
+		'xddxd',
+		'xddxx',
+		'xdxdd',
+		'xdxdx',
+		'xdxxd',
+		'xdxxx',
+		'xxddd',
+		'xxddx',
+		'xxdxd',
+		'xxdxx',
+		'xxxdd',
+		'xxxdx',
+		'xxxxd',
+		'xxxxx',
+	),
+	'zhihe' => array(
+		'zzzzz',
+		'zzzzh',
+		'zzzhz',
+		'zzzhh',
+		'zzhzz',
+		'zzhzh',
+		'zzhhz',
+		'zzhhh',
+		'zhzzz',
+		'zhzzh',
+		'zhzhz',
+		'zhzhh',
+		'zhhzz',
+		'zhhzh',
+		'zhhhz',
+		'zhhhh',
+		'hzzzz',
+		'hzzzh',
+		'hzzhz',
+		'hzzhh',
+		'hzhzz',
+		'hzhzh',
+		'hzhhz',
+		'hzhhh',
+		'hhzzz',
+		'hhzzh',
+		'hhzhz',
+		'hhzhh',
+		'hhhzz',
+		'hhhzh',
+		'hhhhz',
+		'hhhhh',
+	),
+	'jiou' => array(
+		'jjjjj',
+		'jjjjo',
+		'jjjoj',
+		'jjjoo',
+		'jjojj',
+		'jjojo',
+		'jjooj',
+		'jjooo',
+		'jojjj',
+		'jojjo',
+		'jojoj',
+		'jojoo',
+		'joojj',
+		'joojo',
+		'joooj',
+		'joooo',
+		'ojjjj',
+		'ojjjo',
+		'ojjoj',
+		'ojjoo',
+		'ojojj',
+		'ojojo',
+		'ojooj',
+		'ojooo',
+		'oojjj',
+		'oojjo',
+		'oojoj',
+		'oojoo',
+		'ooojj',
+		'ooojo',
+		'ooooj',
+		'ooooo',
+	),
 );
+foreach($fiveSet['jiou'] as $set) {
+	$arr[$set] = dws(array($numsArr[$set[4]],$numsArr[$set[3]],$numsArr[$set[2]],$numsArr[$set[1]],$numsArr[$set[0]]));
+}*/
 
-foreach($fourSet as $num) {
+/*$fourSet = array(
+	'daxiao' => array(
+		'dddd',
+		'dddx',
+		'ddxd',
+		'ddxx',
+		'dxdd',
+		'dxdx',
+		'dxxd',
+		'dxxx',
+		'xddd',
+		'xddx',
+		'xdxd',
+		'xdxx',
+		'xxdd',
+		'xxdx',
+		'xxxd',
+		'xxxx'
+	),
+	'zhihe' => array(
+		'zzzz',
+		'zzzh',
+		'zzhz',
+		'zzhh',
+		'zhzz',
+		'zhzh',
+		'zhhz',
+		'zhhh',
+		'hzzz',
+		'hzzh',
+		'hzhz',
+		'hzhh',
+		'hhzz',
+		'hhzh',
+		'hhhz',
+		'hhhh'
+	),
+	'jiou' => array(
+		'jjjj',
+		'jjjo',
+		'jjoj',
+		'jjoo',
+		'jojj',
+		'jojo',
+		'jooj',
+		'jooo',
+		'ojjj',
+		'ojjo',
+		'ojoj',
+		'ojoo',
+		'oojj',
+		'oojo',
+		'oooj',
+		'oooo'
+	),
+);
+foreach($fourSet['jiou'] as $set) {
+	$arr[$set] = dws(array($numsArr[$set[3]],$numsArr[$set[2]],$numsArr[$set[1]],$numsArr[$set[0]]));
+}*/
 
+/*$threeSet = array(
+	'daxiao' => array(
+		'ddd',
+		'ddx',
+		'dxd',
+		'xdd',
+		'dxx',
+		'xdx',
+		'xxd',
+		'xxx'
+	),
+	'zhihe' => array(
+		'zzz',
+		'zzh',
+		'zhz',
+		'hzz',
+		'zhh',
+		'hzh',
+		'hhz',
+		'hhh'
+	),
+	'jiou' => array(
+		'jjj',
+		'jjo',
+		'joj',
+		'ojj',
+		'joo',
+		'ojo',
+		'ooj',
+		'ooo'
+	),
+);
+foreach($threeSet['jiou'] as $set) {
+	$arr[$set] = dws(array($numsArr[$set[2]],$numsArr[$set[1]],$numsArr[$set[0]]));
+}*/
+
+$twoSet = array(
+	'daxiao' => array(
+		'dd',
+		'dx',
+		'xd',
+		'xx'
+	),
+	'zhihe' => array(
+		'zz',
+		'zh',
+		'hz',
+		'hh'
+	),
+	'jiou' => array(
+		'jj',
+		'jo',
+		'oj',
+		'oo'
+	),
+);
+foreach($twoSet['zhihe'] as $set) {
+	$arr[$set] = dws(array($numsArr[$set[1]],$numsArr[$set[0]]));
 }
-
 $file = 'config/two.php';
 $contents = '<?php'.PHP_EOL;
-$contents .= 'return array('.PHP_EOL.'\'xxxxx\' => ';
-	$arr = dws(array($first,$second,$third,$fourth));
+$contents .= 'return ';
 $contents .= var_export($arr, true);
-$contents .= ','.PHP_EOL.');';
+$contents .= ';';
 file_put_contents($file,$contents);
 //echo $contents;
 //var_export($arr);
